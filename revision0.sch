@@ -15031,7 +15031,8 @@ Source: www.kingbright.com</description>
 <variantdefs>
 </variantdefs>
 <classes>
-<class number="0" name="default" width="0" drill="0">
+<class number="0" name="signal" width="0.4064" drill="0.4064">
+<clearance class="0" value="0.2034"/>
 </class>
 </classes>
 <parts>
@@ -15814,9 +15815,10 @@ package DONE</text>
 </net>
 <net name="GPS-WAKEUP" class="0">
 <segment>
-<wire x1="-7.62" y1="12.7" x2="93.98" y2="12.7" width="0.1524" layer="91"/>
-<label x="96.52" y="12.7" size="1.778" layer="95"/>
-<pinref part="IC1" gate="G$1" pin="P4.7/UCB1SOMI/UCB1SCL/TA1.2/S6"/>
+<wire x1="-7.62" y1="-45.72" x2="-5.08" y2="-48.26" width="0.1524" layer="91"/>
+<wire x1="-5.08" y1="-48.26" x2="93.98" y2="-48.26" width="0.1524" layer="91"/>
+<label x="96.52" y="-45.72" size="1.778" layer="95"/>
+<pinref part="IC1" gate="G$1" pin="P9.0/ESICH0/ESITEST0/A8/C8"/>
 </segment>
 <segment>
 <pinref part="R26" gate="G$1" pin="1"/>
@@ -16187,12 +16189,12 @@ package DONE</text>
 <label x="-406.4" y="2.54" size="1.778" layer="95"/>
 </segment>
 <segment>
-<wire x1="-228.6" y1="2.54" x2="-154.94" y2="2.54" width="0.1524" layer="91"/>
-<pinref part="IC1" gate="G$1" pin="P6.3/COM0"/>
-<label x="-241.3" y="2.54" size="1.778" layer="95"/>
+<wire x1="-7.62" y1="17.78" x2="93.98" y2="17.78" width="0.1524" layer="91"/>
+<label x="96.52" y="17.78" size="1.778" layer="95"/>
+<pinref part="IC1" gate="G$1" pin="P4.1/UCB1SOMI/UCB1SCL/ACLK/S4"/>
 </segment>
 </net>
-<net name="SW-CHECK-BATT-MEM" class="0">
+<net name="SW-CFG-GPS" class="0">
 <segment>
 <pinref part="S1" gate="1" pin="P1"/>
 <pinref part="S1" gate="1" pin="P"/>
@@ -16204,9 +16206,9 @@ package DONE</text>
 <label x="-406.4" y="35.56" size="1.778" layer="95"/>
 </segment>
 <segment>
-<wire x1="-228.6" y1="-10.16" x2="-154.94" y2="-10.16" width="0.1524" layer="91"/>
-<label x="-241.3" y="-10.16" size="1.778" layer="95"/>
-<pinref part="IC1" gate="G$1" pin="P2.5/TB0.4/COM5/S32"/>
+<label x="96.52" y="-33.02" size="1.778" layer="95"/>
+<pinref part="IC1" gate="G$1" pin="P9.5/ESICI1/A13/C13"/>
+<wire x1="93.98" y1="-33.02" x2="-7.62" y2="-33.02" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="MCU-RX-FT232" class="0">
@@ -16318,9 +16320,10 @@ package DONE</text>
 </net>
 <net name="PWR_GPS_SENSE" class="0">
 <segment>
-<pinref part="IC1" gate="G$1" pin="P4.6/UCB1SIMO/UCB1SDA/TA1.1/S7"/>
-<wire x1="-7.62" y1="10.16" x2="93.98" y2="10.16" width="0.1524" layer="91"/>
-<label x="96.52" y="10.16" size="1.778" layer="95"/>
+<wire x1="-5.08" y1="-43.18" x2="93.98" y2="-43.18" width="0.1524" layer="91"/>
+<label x="96.52" y="-43.18" size="1.778" layer="95"/>
+<pinref part="IC1" gate="G$1" pin="P9.6/ESICI2/A14/C14"/>
+<wire x1="-5.08" y1="-43.18" x2="-7.62" y2="-30.48" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <wire x1="274.32" y1="-58.42" x2="281.94" y2="-58.42" width="0.1524" layer="91"/>
@@ -16418,7 +16421,7 @@ package DONE</text>
 <label x="220.98" y="-30.48" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="SW-CFG-GPS" class="0">
+<net name="SW-CHECK-BATT-MEM" class="0">
 <segment>
 <pinref part="S3" gate="1" pin="P1"/>
 <pinref part="S3" gate="1" pin="P"/>
@@ -16430,9 +16433,9 @@ package DONE</text>
 <label x="-406.4" y="22.86" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="IC1" gate="G$1" pin="P2.4/TB0.3/COM4/S33"/>
-<wire x1="-154.94" y1="-7.62" x2="-228.6" y2="-7.62" width="0.1524" layer="91"/>
-<label x="-241.3" y="-7.62" size="1.778" layer="95"/>
+<wire x1="93.98" y1="-73.66" x2="-7.62" y2="-73.66" width="0.1524" layer="91"/>
+<label x="96.52" y="-73.66" size="1.778" layer="95"/>
+<pinref part="IC1" gate="G$1" pin="P2.0/UCA0SIMO/UCA0TXD/TB0.6/TB0CLK/S14"/>
 </segment>
 </net>
 <net name="LED2" class="0">
@@ -16477,9 +16480,10 @@ package DONE</text>
 <wire x1="322.58" y1="-68.58" x2="353.06" y2="-68.58" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<wire x1="-7.62" y1="15.24" x2="93.98" y2="15.24" width="0.1524" layer="91"/>
-<label x="96.52" y="15.24" size="1.778" layer="95"/>
-<pinref part="IC1" gate="G$1" pin="P4.0/UCB1SIMO/UCB1SDA/MCLK/S5"/>
+<wire x1="-5.08" y1="-45.72" x2="93.98" y2="-45.72" width="0.1524" layer="91"/>
+<label x="96.52" y="-48.26" size="1.778" layer="95"/>
+<pinref part="IC1" gate="G$1" pin="P9.1/ESICH1/ESITEST1/A9/C9"/>
+<wire x1="-5.08" y1="-45.72" x2="-7.62" y2="-43.18" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$3" class="0">
@@ -16566,9 +16570,10 @@ package DONE</text>
 </net>
 <net name="ADC-BATT" class="0">
 <segment>
-<pinref part="IC1" gate="G$1" pin="P4.1/UCB1SOMI/UCB1SCL/ACLK/S4"/>
-<wire x1="93.98" y1="17.78" x2="-7.62" y2="17.78" width="0.1524" layer="91"/>
-<label x="96.52" y="17.78" size="1.778" layer="95"/>
+<label x="96.52" y="-25.4" size="1.778" layer="95"/>
+<pinref part="IC1" gate="G$1" pin="P9.7/ESICI3/A15/C15"/>
+<wire x1="93.98" y1="-25.4" x2="0" y2="-25.4" width="0.1524" layer="91"/>
+<wire x1="0" y1="-25.4" x2="-7.62" y2="-27.94" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="U$2" gate="G$1" pin="CLIM2"/>
