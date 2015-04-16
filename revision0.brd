@@ -14,10 +14,10 @@
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="yes"/>
 <layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
 <layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
@@ -28,21 +28,21 @@
 <layer number="32" name="bCream" color="7" fill="5" visible="yes" active="yes"/>
 <layer number="33" name="tFinish" color="6" fill="3" visible="yes" active="yes"/>
 <layer number="34" name="bFinish" color="6" fill="6" visible="yes" active="yes"/>
-<layer number="35" name="tGlue" color="7" fill="4" visible="no" active="yes"/>
-<layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
-<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="yes" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="yes" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
-<layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="yes"/>
-<layer number="42" name="bRestrict" color="1" fill="10" visible="no" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
 <layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
-<layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
-<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="yes"/>
 <layer number="47" name="Measures" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="90" name="Modules" color="5" fill="1" visible="no" active="no"/>
@@ -64,18 +64,19 @@
 <wire x1="80" y1="0" x2="80" y2="80" width="0.4064" layer="20"/>
 <wire x1="80" y1="80" x2="0" y2="80" width="0.4064" layer="20"/>
 <wire x1="0" y1="80" x2="0" y2="0" width="0.4064" layer="20"/>
-<text x="38" y="73.5" size="1.4224" layer="100">USBRX-TX</text>
-<text x="61.5" y="74" size="1.4224" layer="100">VCC</text>
-<text x="67.5" y="74" size="1.4224" layer="100">VCCSTAT</text>
+<text x="37.9" y="72.3" size="1.4224" layer="100">RX-USB-TX</text>
+<text x="62.7" y="74.2" size="1.4224" layer="100">VCC</text>
+<text x="68" y="74.2" size="1.4224" layer="100">VCCSTAT</text>
 <text x="39" y="25" size="1.4224" layer="101" rot="MR90">GPS: ON - OFF</text>
 <text x="22.75" y="27.25" size="1.4224" layer="101" rot="MR90">CFG GPS</text>
-<text x="1.75" y="24.5" size="1.4224" layer="101" rot="MR90">MEM BATT STAT</text>
-<text x="22" y="3.5" size="1.4224" layer="100" rot="R180">GPSRX-TX</text>
+<text x="1.75" y="24.5" size="1.4224" layer="101" rot="MR90">MEM-BATT-STAT</text>
+<text x="23.2" y="3.3" size="1.4224" layer="100" rot="R180">RX-GPS-TX</text>
 <text x="32.25" y="23" size="1.4224" layer="100">GPS-PWR</text>
 <text x="5.5" y="21.25" size="1.4224" layer="100">ADC-VREF</text>
 <text x="5.75" y="16.25" size="1.4224" layer="100">GPS-PULSE</text>
 <hole x="54" y="16" drill="1"/>
 <circle x="54" y="16" radius="1" width="0.6096" layer="16"/>
+<text x="47.4" y="74.2" size="1.4224" layer="100">USB-PWR-BATT</text>
 </plain>
 <libraries>
 <library name="tagps">
@@ -842,7 +843,7 @@ Source: www.farnell.com/datasheets/49238.pdf</description>
 </variantdefs>
 <classes>
 <class number="0" name="signal" width="0.254" drill="0.254">
-<clearance class="0" value="0.2034"/>
+<clearance class="0" value="0.1524"/>
 </class>
 </classes>
 <designrules name="LaenPCBOrder *">

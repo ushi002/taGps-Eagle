@@ -14981,7 +14981,7 @@ Source: www.kingbright.com</description>
 </variantdefs>
 <classes>
 <class number="0" name="signal" width="0.254" drill="0.254">
-<clearance class="0" value="0.2034"/>
+<clearance class="0" value="0.1524"/>
 </class>
 </classes>
 <parts>
