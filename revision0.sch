@@ -739,12 +739,12 @@ Source: www.ti.com .. msp430f5437.pdf</description>
 <smd name="72" x="-6.6" y="-0.75" dx="1.6" dy="0.3" layer="1"/>
 <smd name="73" x="-6.6" y="-1.25" dx="1.6" dy="0.3" layer="1"/>
 <smd name="74" x="-6.6" y="-1.75" dx="1.6" dy="0.3" layer="1"/>
-<smd name="75" x="-6.6" y="-2.25" dx="1.6" dy="0.3" layer="1" stop="no"/>
-<smd name="76" x="-6.6" y="-2.75" dx="1.6" dy="0.3" layer="1" stop="no"/>
-<smd name="77" x="-6.6" y="-3.25" dx="1.6" dy="0.3" layer="1" stop="no"/>
-<smd name="78" x="-6.6" y="-3.75" dx="1.6" dy="0.3" layer="1" stop="no"/>
-<smd name="79" x="-6.6" y="-4.25" dx="1.6" dy="0.3" layer="1" stop="no"/>
-<smd name="80" x="-6.6" y="-4.75" dx="1.6" dy="0.3" layer="1" stop="no"/>
+<smd name="75" x="-6.6" y="-2.25" dx="1.6" dy="0.3" layer="1"/>
+<smd name="76" x="-6.6" y="-2.75" dx="1.6" dy="0.3" layer="1"/>
+<smd name="77" x="-6.6" y="-3.25" dx="1.6" dy="0.3" layer="1"/>
+<smd name="78" x="-6.6" y="-3.75" dx="1.6" dy="0.3" layer="1"/>
+<smd name="79" x="-6.6" y="-4.25" dx="1.6" dy="0.3" layer="1"/>
+<smd name="80" x="-6.6" y="-4.75" dx="1.6" dy="0.3" layer="1"/>
 <text x="-3.81" y="-3.175" size="1.27" layer="25">&gt;NAME</text>
 <text x="-3.81" y="1.905" size="1.27" layer="27">&gt;VALUE</text>
 <rectangle x1="-4.8999" y1="-6.8999" x2="-4.5999" y2="-5.95" layer="51"/>
