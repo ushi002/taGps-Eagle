@@ -16,8 +16,8 @@
 <layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="21" name="tPlace" color="7" fill="1" visible="no" active="yes"/>
 <layer number="22" name="bPlace" color="7" fill="1" visible="no" active="yes"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="yes"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
 <layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
@@ -2218,8 +2218,6 @@ Please make sure your boards conform to these design rules.</description>
 </signal>
 <signal name="GPS-TIMEPULSE">
 <contactref element="R28" pad="1"/>
-<contactref element="IC1" pad="53"/>
-<wire x1="11.5" y1="40.65" x2="11.5" y2="42.25" width="0.254" layer="16"/>
 <via x="11.5" y="42.25" extent="1-16" drill="0.4064"/>
 <wire x1="11.75" y1="40" x2="11.25" y2="39.5" width="0.254" layer="1"/>
 <wire x1="11.75" y1="42" x2="11.75" y2="40" width="0.254" layer="1"/>
@@ -2231,6 +2229,8 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="16.5" y1="18.95" x2="11" y2="24.5" width="0.254" layer="1"/>
 <via x="16.5" y="18.95" extent="1-16" drill="0.4064"/>
 <wire x1="16.5" y1="18.95" x2="16.5" y2="13.85" width="0.254" layer="16"/>
+<contactref element="IC1" pad="40"/>
+<wire x1="11.75" y1="42" x2="19.35" y2="42.5" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="N$3">
 <contactref element="R29" pad="1"/>
