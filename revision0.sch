@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
@@ -15158,7 +15158,6 @@ Source: www.kingbright.com</description>
 <part name="GND6" library="supply1" deviceset="GND" device=""/>
 <part name="P+1" library="tagps" deviceset="VCC" device="" value="VCC"/>
 <part name="P+3" library="tagps" deviceset="VCC" device="" value="VCC"/>
-<part name="GND7" library="supply1" deviceset="GND" device=""/>
 <part name="C3" library="tagps" deviceset="C-EU" device="C0805" value="100n"/>
 <part name="C4" library="tagps" deviceset="C-EU" device="C0805" value="1u"/>
 <part name="C5" library="tagps" deviceset="C-EU" device="C0805" value="100n"/>
@@ -15293,11 +15292,12 @@ Source: www.kingbright.com</description>
 <part name="P+21" library="tagps" deviceset="VCC" device="" value="VBUS"/>
 <part name="SBW" library="tagps" deviceset="PINHD-1X3" device=""/>
 <part name="JP1" library="tagps" deviceset="PINHD-1X7" device="/90"/>
-<part name="GND12" library="supply1" deviceset="GND" device=""/>
 <part name="JP2" library="tagps" deviceset="JP1Q" device=""/>
 <part name="SV1" library="tagps" deviceset="FE07W" device=""/>
 <part name="GND32" library="supply1" deviceset="GND" device=""/>
 <part name="TP1" library="tagps" deviceset="TPSQ" device="TP16R"/>
+<part name="GND7" library="supply1" deviceset="GND" device=""/>
+<part name="GND12" library="supply1" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -15334,7 +15334,6 @@ package DONE</text>
 <instance part="GND6" gate="1" x="-190.5" y="-17.78" rot="R270"/>
 <instance part="P+1" gate="VCC" x="-193.04" y="-35.56" rot="R90"/>
 <instance part="P+3" gate="VCC" x="180.34" y="73.66"/>
-<instance part="GND7" gate="1" x="281.94" y="-88.9"/>
 <instance part="C3" gate="G$1" x="-175.26" y="-25.4" rot="MR0"/>
 <instance part="C4" gate="G$1" x="-182.88" y="-25.4" rot="MR0"/>
 <instance part="C5" gate="G$1" x="7.62" y="-15.24" rot="MR0"/>
@@ -15478,11 +15477,12 @@ package DONE</text>
 <instance part="P+21" gate="VCC" x="-393.7" y="127"/>
 <instance part="SBW" gate="A" x="-137.16" y="-96.52" rot="R180"/>
 <instance part="JP1" gate="A" x="260.35" y="44.45"/>
-<instance part="GND12" gate="1" x="250.19" y="24.13"/>
 <instance part="JP2" gate="A" x="276.86" y="212.09"/>
 <instance part="SV1" gate="G$1" x="201.93" y="44.45" rot="R180"/>
 <instance part="GND32" gate="1" x="189.23" y="24.13"/>
 <instance part="TP1" gate="G$1" x="226.06" y="-25.4" rot="R180"/>
+<instance part="GND7" gate="1" x="250.19" y="24.13"/>
+<instance part="GND12" gate="1" x="281.94" y="-88.9"/>
 </instances>
 <busses>
 </busses>
@@ -15636,12 +15636,6 @@ package DONE</text>
 <pinref part="GND4" gate="1" pin="GND"/>
 <wire x1="347.98" y1="167.64" x2="347.98" y2="152.4" width="0.1524" layer="91"/>
 <pinref part="G2" gate="G$1" pin="-"/>
-</segment>
-<segment>
-<wire x1="274.32" y1="-73.66" x2="281.94" y2="-73.66" width="0.1524" layer="91"/>
-<wire x1="281.94" y1="-73.66" x2="281.94" y2="-86.36" width="0.1524" layer="91"/>
-<pinref part="GND7" gate="1" pin="GND"/>
-<pinref part="U$3" gate="G$1" pin="GND"/>
 </segment>
 <segment>
 <pinref part="IC1" gate="G$1" pin="DVSS1"/>
@@ -15905,22 +15899,28 @@ package DONE</text>
 <wire x1="-393.7" y1="81.28" x2="-393.7" y2="86.36" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="GND12" gate="1" pin="GND"/>
-<wire x1="257.81" y1="52.07" x2="250.19" y2="52.07" width="0.1524" layer="91"/>
-<wire x1="250.19" y1="52.07" x2="250.19" y2="36.83" width="0.1524" layer="91"/>
-<wire x1="250.19" y1="36.83" x2="250.19" y2="26.67" width="0.1524" layer="91"/>
-<wire x1="257.81" y1="36.83" x2="250.19" y2="36.83" width="0.1524" layer="91"/>
-<pinref part="JP1" gate="A" pin="1"/>
-<pinref part="JP1" gate="A" pin="7"/>
-</segment>
-<segment>
 <pinref part="SV1" gate="G$1" pin="7"/>
 <pinref part="GND32" gate="1" pin="GND"/>
 <wire x1="194.31" y1="36.83" x2="189.23" y2="36.83" width="0.1524" layer="91"/>
 <wire x1="189.23" y1="36.83" x2="189.23" y2="26.67" width="0.1524" layer="91"/>
-<pinref part="SV1" gate="G$1" pin="1"/>
-<wire x1="194.31" y1="52.07" x2="189.23" y2="52.07" width="0.1524" layer="91"/>
-<wire x1="189.23" y1="52.07" x2="189.23" y2="36.83" width="0.1524" layer="91"/>
+<wire x1="194.31" y1="49.53" x2="189.23" y2="49.53" width="0.1524" layer="91"/>
+<wire x1="189.23" y1="49.53" x2="189.23" y2="36.83" width="0.1524" layer="91"/>
+<pinref part="SV1" gate="G$1" pin="2"/>
+</segment>
+<segment>
+<wire x1="274.32" y1="-73.66" x2="281.94" y2="-73.66" width="0.1524" layer="91"/>
+<wire x1="281.94" y1="-73.66" x2="281.94" y2="-86.36" width="0.1524" layer="91"/>
+<pinref part="U$3" gate="G$1" pin="GND"/>
+<pinref part="GND12" gate="1" pin="GND"/>
+</segment>
+<segment>
+<wire x1="257.81" y1="52.07" x2="250.19" y2="52.07" width="0.1524" layer="91"/>
+<wire x1="250.19" y1="52.07" x2="250.19" y2="39.37" width="0.1524" layer="91"/>
+<pinref part="JP1" gate="A" pin="1"/>
+<pinref part="GND7" gate="1" pin="GND"/>
+<pinref part="JP1" gate="A" pin="6"/>
+<wire x1="250.19" y1="39.37" x2="250.19" y2="26.67" width="0.1524" layer="91"/>
+<wire x1="257.81" y1="39.37" x2="250.19" y2="39.37" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="GPS-WAKEUP" class="0">
@@ -16420,9 +16420,9 @@ package DONE</text>
 <junction x="281.94" y="-45.72"/>
 </segment>
 <segment>
-<wire x1="234.95" y1="39.37" x2="257.81" y2="39.37" width="0.1524" layer="91"/>
-<label x="232.41" y="39.37" size="1.016" layer="95"/>
-<pinref part="JP1" gate="A" pin="6"/>
+<wire x1="234.95" y1="36.83" x2="257.81" y2="36.83" width="0.1524" layer="91"/>
+<label x="232.41" y="36.83" size="1.016" layer="95"/>
+<pinref part="JP1" gate="A" pin="7"/>
 </segment>
 </net>
 <net name="GPS-TX" class="0">
@@ -16702,11 +16702,11 @@ package DONE</text>
 <pinref part="IC1" gate="G$1" pin="P2.2/UCA0CLK/TB0.4/RTCCLK/S16"/>
 </segment>
 <segment>
-<wire x1="180.34" y1="49.53" x2="194.31" y2="49.53" width="0.1524" layer="91"/>
-<label x="172.72" y="49.53" size="1.016" layer="95"/>
+<wire x1="180.34" y1="52.07" x2="194.31" y2="52.07" width="0.1524" layer="91"/>
+<label x="172.72" y="52.07" size="1.016" layer="95"/>
 <pinref part="S2" gate="G$1" pin="3.1"/>
-<wire x1="180.34" y1="49.53" x2="180.34" y2="55.88" width="0.1524" layer="91"/>
-<pinref part="SV1" gate="G$1" pin="2"/>
+<wire x1="180.34" y1="52.07" x2="180.34" y2="55.88" width="0.1524" layer="91"/>
+<pinref part="SV1" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="MB-GPS-WAKEUP" class="0">
