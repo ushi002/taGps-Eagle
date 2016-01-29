@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="2" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="0.05" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -74,9 +74,11 @@
 <text x="15.95" y="19.4" size="1.016" layer="100">GPS-PWR</text>
 <text x="0.85" y="37.7" size="1.016" layer="100" rot="R270">ADC-VREF</text>
 <text x="49.7" y="74.9" size="1.016" layer="100">USB-PWR-BATT</text>
-<dimension x1="0" y1="0" x2="80" y2="0" x3="40" y3="-6.4" textsize="1.778" layer="1"/>
 <text x="0.9" y="11.1" size="1.016" layer="100">TIMEPULSE</text>
 <text x="77.2" y="46" size="1.016" layer="100" rot="R270">RX-GPS-TX</text>
+<dimension x1="98.25" y1="63.7" x2="98.25" y2="68.7" x3="103.104259375" y3="66.2" textsize="1.778" layer="1"/>
+<dimension x1="0" y1="0" x2="99.5" y2="0" x3="49.75" y3="-5.1" textsize="1.778" layer="1"/>
+<dimension x1="0" y1="80" x2="0" y2="0" x3="-10.6" y3="40" textsize="1.778" layer="1"/>
 </plain>
 <libraries>
 <library name="tagps">
@@ -1914,6 +1916,7 @@ Please make sure your boards conform to these design rules.</description>
 <via x="80" y="34" extent="1-16" drill="0.6"/>
 <via x="72.5" y="31.5" extent="1-16" drill="0.6"/>
 <via x="74" y="34" extent="1-16" drill="0.6"/>
+<via x="72.35" y="78.5" extent="1-16" drill="0.6"/>
 </signal>
 <signal name="GPS-WAKEUP">
 <contactref element="R26" pad="1"/>
