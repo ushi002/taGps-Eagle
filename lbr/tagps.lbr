@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="mm" unit="mm" style="lines" multiple="1" display="no" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -10808,6 +10808,17 @@ Source: http://www.ledtronics.com/ds/smd-0603/Dstr0092.pdf</description>
 <rectangle x1="-0.3048" y1="0.9652" x2="0.3048" y2="1.5748" layer="51"/>
 <rectangle x1="-0.3048" y1="-1.5748" x2="0.3048" y2="-0.9652" layer="51"/>
 </package>
+<package name="MWSL1251">
+<rectangle x1="-5.02" y1="0" x2="5.02" y2="17.71" layer="21"/>
+<rectangle x1="-4.51" y1="-4.51" x2="4.51" y2="0" layer="21"/>
+<smd name="P$2" x="0" y="-3.25" dx="1.7" dy="3.5" layer="1"/>
+<smd name="P$1" x="-3.9" y="-2.25" dx="3.2" dy="3.5" layer="1"/>
+<smd name="P$3" x="3.9" y="-2.25" dx="3.2" dy="3.5" layer="1"/>
+<rectangle x1="-2.2" y1="-5.1" x2="2.2" y2="-0.5" layer="41"/>
+<rectangle x1="-2.2" y1="-5.1" x2="2.2" y2="-0.5" layer="42"/>
+<rectangle x1="-10" y1="-0.5" x2="10" y2="18" layer="41"/>
+<rectangle x1="-10" y1="-0.5" x2="10" y2="18" layer="42"/>
+</package>
 </packages>
 <symbols>
 <symbol name="MSP430FR6989-LQFP80">
@@ -11521,6 +11532,16 @@ Source: http://www.ledtronics.com/ds/smd-0603/Dstr0092.pdf</description>
 <text x="4.445" y="-5.08" size="1.778" layer="96" rot="R90">&gt;VALUE</text>
 <pin name="1" x="0" y="-7.62" visible="pad" length="short" direction="pas" rot="R90"/>
 <pin name="2" x="0" y="7.62" visible="pad" length="short" direction="pas" rot="R270"/>
+</symbol>
+<symbol name="MWSL1251">
+<wire x1="0" y1="0" x2="0" y2="1.8796" width="0.254" layer="94"/>
+<wire x1="0" y1="1.8796" x2="1.3" y2="3.2" width="0.254" layer="94"/>
+<wire x1="0" y1="1.8796" x2="-1.3" y2="3.2" width="0.254" layer="94"/>
+<wire x1="-1.3" y1="3.2" x2="0" y2="3.2" width="0.254" layer="94"/>
+<wire x1="0" y1="3.2" x2="1.3" y2="3.2" width="0.254" layer="94"/>
+<wire x1="0" y1="2" x2="0" y2="3.2" width="0.254" layer="94"/>
+<pin name="GND" x="2.54" y="0" visible="off" length="short" direction="pwr" rot="R180"/>
+<pin name="FEED" x="0" y="-2.54" visible="off" length="short" rot="R90"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -16128,6 +16149,22 @@ Source: www.kingbright.com</description>
 <connects>
 <connect gate="A" pin="1" pad="1"/>
 <connect gate="A" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="MWSL1251">
+<gates>
+<gate name="G$1" symbol="MWSL1251" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="MWSL1251">
+<connects>
+<connect gate="G$1" pin="FEED" pad="P$2"/>
+<connect gate="G$1" pin="GND" pad="P$1 P$3"/>
 </connects>
 <technologies>
 <technology name=""/>
