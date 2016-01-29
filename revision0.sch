@@ -6,22 +6,22 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="yes" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="no"/>
-<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="no"/>
-<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="no"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="no"/>
-<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="no"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="no"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="no"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="no"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="no"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="no"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="no"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="no"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="no"/>
+<layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="no" active="no"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="no" active="no"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="no"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="no" active="no"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="no"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="no"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="no"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="no"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="no" active="no"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="no" active="no"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="no" active="no"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="no" active="no"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="no"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="no"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="no"/>
@@ -30,8 +30,8 @@
 <layer number="34" name="bFinish" color="6" fill="6" visible="no" active="no"/>
 <layer number="35" name="tGlue" color="7" fill="4" visible="no" active="no"/>
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="no"/>
-<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="no"/>
-<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="no"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="no"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="no"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="no"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="no"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="no"/>
@@ -39,12 +39,12 @@
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="no"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="no"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="no"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="no"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="no"/>
-<layer number="48" name="Document" color="7" fill="1" visible="yes" active="no"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="no"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="no"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="no"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="no"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="no"/>
+<layer number="48" name="Document" color="7" fill="1" visible="no" active="no"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="no" active="no"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="no"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="no"/>
 <layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
@@ -10147,6 +10147,17 @@ Source: http://www.ledtronics.com/ds/smd-0603/Dstr0092.pdf</description>
 <rectangle x1="4.826" y1="0" x2="5.334" y2="1.016" layer="51"/>
 <rectangle x1="7.366" y1="0" x2="7.874" y2="1.016" layer="51"/>
 </package>
+<package name="MWSL1251">
+<rectangle x1="-5.02" y1="0" x2="5.02" y2="17.71" layer="21"/>
+<rectangle x1="-4.51" y1="-4.51" x2="4.51" y2="0" layer="21"/>
+<smd name="P$2" x="0" y="-3.25" dx="1.7" dy="3.5" layer="1"/>
+<smd name="P$1" x="-3.9" y="-2.25" dx="3.2" dy="3.5" layer="1"/>
+<smd name="P$3" x="3.9" y="-2.25" dx="3.2" dy="3.5" layer="1"/>
+<rectangle x1="-2.2" y1="-5.1" x2="2.2" y2="-0.5" layer="41"/>
+<rectangle x1="-2.2" y1="-5.1" x2="2.2" y2="-0.5" layer="42"/>
+<rectangle x1="-10" y1="-0.5" x2="10" y2="18" layer="41"/>
+<rectangle x1="-10" y1="-0.5" x2="10" y2="18" layer="42"/>
+</package>
 </packages>
 <symbols>
 <symbol name="FT232R">
@@ -10636,6 +10647,16 @@ Source: http://www.ledtronics.com/ds/smd-0603/Dstr0092.pdf</description>
 <pin name="5" x="7.62" y="2.54" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R180"/>
 <pin name="6" x="7.62" y="5.08" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R180"/>
 <pin name="7" x="7.62" y="7.62" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R180"/>
+</symbol>
+<symbol name="MWSL1251">
+<wire x1="0" y1="0" x2="0" y2="1.8796" width="0.254" layer="94"/>
+<wire x1="0" y1="1.8796" x2="1.3" y2="3.2" width="0.254" layer="94"/>
+<wire x1="0" y1="1.8796" x2="-1.3" y2="3.2" width="0.254" layer="94"/>
+<wire x1="-1.3" y1="3.2" x2="0" y2="3.2" width="0.254" layer="94"/>
+<wire x1="0" y1="3.2" x2="1.3" y2="3.2" width="0.254" layer="94"/>
+<wire x1="0" y1="2" x2="0" y2="3.2" width="0.254" layer="94"/>
+<pin name="GND" x="2.54" y="0" visible="off" length="short" direction="pwr" rot="R180"/>
+<pin name="FEED" x="0" y="-2.54" visible="off" length="short" rot="R90"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -15089,6 +15110,22 @@ Source: www.kingbright.com</description>
 </device>
 </devices>
 </deviceset>
+<deviceset name="MWSL1251">
+<gates>
+<gate name="G$1" symbol="MWSL1251" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="MWSL1251">
+<connects>
+<connect gate="G$1" pin="FEED" pad="P$2"/>
+<connect gate="G$1" pin="GND" pad="P$1 P$3"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
 </devicesets>
 </library>
 <library name="supply1">
@@ -15214,10 +15251,6 @@ Source: www.kingbright.com</description>
 <part name="GND3" library="supply1" deviceset="GND" device=""/>
 <part name="C25" library="tagps" deviceset="C-EU" device="C0805" value="4.7uF at least"/>
 <part name="GND29" library="supply1" deviceset="GND" device=""/>
-<part name="R18" library="tagps" deviceset="R-EU_" device="R0805" value="470k"/>
-<part name="R19" library="tagps" deviceset="R-EU_" device="R0805" value="470k"/>
-<part name="R20" library="tagps" deviceset="R-EU_" device="R0805" value="470k"/>
-<part name="R21" library="tagps" deviceset="R-EU_" device="R0805" value="470k"/>
 <part name="GND30" library="supply1" deviceset="GND" device=""/>
 <part name="G2" library="tagps" deviceset="BATTERY" device=""/>
 <part name="C26" library="tagps" deviceset="C-EU" device="C0805" value="470pF"/>
@@ -15230,7 +15263,6 @@ Source: www.kingbright.com</description>
 <part name="C22" library="tagps" deviceset="CPOL-EU" device="A/3216-18W" value="1uF"/>
 <part name="C27" library="tagps" deviceset="CPOL-EU" device="A/3216-18W" value="1uF"/>
 <part name="C28" library="tagps" deviceset="CPOL-EU" device="A/3216-18W" value="4.7uF"/>
-<part name="TP-VCCSTAT" library="tagps" deviceset="TPSQ" device="PAD1-13" value="TPSQPAD1-13"/>
 <part name="TP-VCC" library="tagps" deviceset="TPSQ" device="PAD1-13" value="TPSQPAD1-13"/>
 <part name="TP-USBRX" library="tagps" deviceset="TPSQ" device="PAD1-13" value="TPSQPAD1-13"/>
 <part name="TP-USBTX" library="tagps" deviceset="TPSQ" device="PAD1-13" value="TPSQPAD1-13"/>
@@ -15286,6 +15318,23 @@ Source: www.kingbright.com</description>
 <part name="GND7" library="supply1" deviceset="GND" device=""/>
 <part name="GND12" library="supply1" deviceset="GND" device=""/>
 <part name="GND34" library="supply1" deviceset="GND" device=""/>
+<part name="U$5" library="tagps" deviceset="MWSL1251" device=""/>
+<part name="U$6" library="tagps" deviceset="MAX-8C-0" device=""/>
+<part name="R17" library="tagps" deviceset="R-EU_" device="R0805" value="100k"/>
+<part name="R33" library="tagps" deviceset="R-EU_" device="R0805" value="100k"/>
+<part name="R34" library="tagps" deviceset="R-EU_" device="R0805" value="0"/>
+<part name="TP-GPSTX1" library="tagps" deviceset="TPSQ" device="TP10R" value="TPSQTP10R"/>
+<part name="TP-GPSRX1" library="tagps" deviceset="TPSQ" device="TP10R" value="TPSQTP10R"/>
+<part name="C13" library="tagps" deviceset="C-EU" device="C0805" value="100n"/>
+<part name="C14" library="tagps" deviceset="C-EU" device="C0805" value="1u"/>
+<part name="GND35" library="supply1" deviceset="GND" device=""/>
+<part name="TP-GPSPWR1" library="tagps" deviceset="TPSQ" device="TP10R" value="TPSQTP10R"/>
+<part name="R35" library="tagps" deviceset="R-EU_" device="R0805" value="0"/>
+<part name="FB4" library="tagps" deviceset="R-EU_" device="R0805" value="0"/>
+<part name="FB5" library="tagps" deviceset="R-EU_" device="R0805" value="0"/>
+<part name="FB6" library="tagps" deviceset="R-EU_" device="R0805" value="0"/>
+<part name="GND37" library="supply1" deviceset="GND" device=""/>
+<part name="GND36" library="supply1" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -15313,6 +15362,12 @@ package DONE</text>
 <wire x1="322.58" y1="-73.66" x2="312.42" y2="-63.5" width="0.3048" layer="98" style="shortdash"/>
 <wire x1="297.18" y1="-71.12" x2="307.34" y2="-60.96" width="0.3048" layer="98" style="shortdash"/>
 <wire x1="297.18" y1="-60.96" x2="307.34" y2="-71.12" width="0.3048" layer="98" style="shortdash"/>
+<text x="238.76" y="-171.45" size="1.778" layer="91">power save mode: cyclic tracking (for 1s - 10s periods)</text>
+<text x="337.82" y="-191.77" size="1.778" layer="91">Wake-up by edge to get position</text>
+<wire x1="320.04" y1="-201.93" x2="330.2" y2="-191.77" width="0.3048" layer="98" style="shortdash"/>
+<wire x1="330.2" y1="-201.93" x2="320.04" y2="-191.77" width="0.3048" layer="98" style="shortdash"/>
+<wire x1="304.8" y1="-199.39" x2="314.96" y2="-189.23" width="0.3048" layer="98" style="shortdash"/>
+<wire x1="304.8" y1="-189.23" x2="314.96" y2="-199.39" width="0.3048" layer="98" style="shortdash"/>
 </plain>
 <instances>
 <instance part="IC3" gate="1" x="-246.38" y="149.86"/>
@@ -15391,10 +15446,6 @@ package DONE</text>
 <instance part="GND3" gate="1" x="233.68" y="139.7"/>
 <instance part="C25" gate="G$1" x="182.88" y="157.48"/>
 <instance part="GND29" gate="1" x="182.88" y="139.7"/>
-<instance part="R18" gate="G$1" x="289.56" y="200.66" rot="R270"/>
-<instance part="R19" gate="G$1" x="297.18" y="198.12" rot="R270"/>
-<instance part="R20" gate="G$1" x="307.34" y="193.04" rot="R270"/>
-<instance part="R21" gate="G$1" x="314.96" y="190.5" rot="R270"/>
 <instance part="GND30" gate="1" x="269.24" y="139.7"/>
 <instance part="G2" gate="G$1" x="347.98" y="172.72" rot="R90"/>
 <instance part="C26" gate="G$1" x="25.4" y="193.04"/>
@@ -15407,7 +15458,6 @@ package DONE</text>
 <instance part="C22" gate="G$1" x="15.24" y="193.04"/>
 <instance part="C27" gate="G$1" x="-17.78" y="193.04"/>
 <instance part="C28" gate="G$1" x="-276.86" y="160.02"/>
-<instance part="TP-VCCSTAT" gate="G$1" x="314.96" y="233.68" rot="R180"/>
 <instance part="TP-VCC" gate="G$1" x="284.48" y="233.68" rot="R180"/>
 <instance part="TP-USBRX" gate="G$1" x="-162.56" y="218.44" rot="R180"/>
 <instance part="TP-USBTX" gate="G$1" x="-154.94" y="218.44" smashed="yes" rot="R180">
@@ -15472,6 +15522,29 @@ package DONE</text>
 <instance part="GND7" gate="1" x="250.19" y="24.13"/>
 <instance part="GND12" gate="1" x="281.94" y="-88.9"/>
 <instance part="GND34" gate="1" x="161.29" y="49.53"/>
+<instance part="U$5" gate="G$1" x="233.68" y="-154.94"/>
+<instance part="U$6" gate="G$1" x="266.7" y="-189.23"/>
+<instance part="R17" gate="G$1" x="228.6" y="-184.15" rot="R90"/>
+<instance part="R33" gate="G$1" x="220.98" y="-184.15" rot="R90"/>
+<instance part="R34" gate="G$1" x="309.88" y="-194.31" rot="R180"/>
+<instance part="TP-GPSTX1" gate="G$1" x="200.66" y="-232.41" smashed="yes">
+<attribute name="NAME" x="190.5" y="-236.855" size="1.778" layer="95"/>
+<attribute name="TP_SIGNAL_NAME" x="203.2" y="-233.68" size="1.778" layer="97"/>
+</instance>
+<instance part="TP-GPSRX1" gate="G$1" x="205.74" y="-232.41" smashed="yes">
+<attribute name="NAME" x="205.74" y="-236.855" size="1.778" layer="95"/>
+<attribute name="TP_SIGNAL_NAME" x="208.28" y="-233.68" size="1.778" layer="97"/>
+</instance>
+<instance part="C13" gate="G$1" x="299.72" y="-186.69" rot="MR90"/>
+<instance part="C14" gate="G$1" x="307.34" y="-179.07" rot="MR0"/>
+<instance part="GND35" gate="1" x="320.04" y="-186.69" rot="R90"/>
+<instance part="TP-GPSPWR1" gate="G$1" x="220.98" y="-143.51" rot="R180"/>
+<instance part="R35" gate="G$1" x="325.12" y="-196.85" rot="R180"/>
+<instance part="FB4" gate="G$1" x="238.76" y="-199.39" rot="R180"/>
+<instance part="FB5" gate="G$1" x="238.76" y="-201.93" rot="R180"/>
+<instance part="FB6" gate="G$1" x="289.56" y="-196.85"/>
+<instance part="GND37" gate="1" x="245.11" y="-160.02"/>
+<instance part="GND36" gate="1" x="289.56" y="-217.17"/>
 </instances>
 <busses>
 </busses>
@@ -15928,6 +16001,28 @@ package DONE</text>
 <pinref part="GND34" gate="1" pin="GND"/>
 <wire x1="161.29" y1="52.07" x2="161.29" y2="57.15" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<wire x1="289.56" y1="-201.93" x2="289.56" y2="-214.63" width="0.1524" layer="91"/>
+<pinref part="GND36" gate="1" pin="GND"/>
+<pinref part="U$6" gate="G$1" pin="GND"/>
+<wire x1="289.56" y1="-201.93" x2="281.94" y2="-201.93" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="C13" gate="G$1" pin="1"/>
+<wire x1="302.26" y1="-186.69" x2="307.34" y2="-186.69" width="0.1524" layer="91"/>
+<pinref part="C14" gate="G$1" pin="2"/>
+<wire x1="317.5" y1="-186.69" x2="307.34" y2="-186.69" width="0.1524" layer="91"/>
+<wire x1="307.34" y1="-186.69" x2="307.34" y2="-184.15" width="0.1524" layer="91"/>
+<pinref part="GND35" gate="1" pin="GND"/>
+<junction x="307.34" y="-186.69"/>
+</segment>
+<segment>
+<pinref part="GND37" gate="1" pin="GND"/>
+<wire x1="245.11" y1="-157.48" x2="245.11" y2="-154.94" width="0.1524" layer="91"/>
+<wire x1="245.11" y1="-154.94" x2="236.22" y2="-154.94" width="0.1524" layer="91"/>
+<pinref part="U$5" gate="G$1" pin="GND"/>
+<label x="228.6" y="-148.59" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="GPS-WAKEUP" class="0">
 <segment>
@@ -16209,58 +16304,6 @@ package DONE</text>
 <wire x1="284.48" y1="231.14" x2="284.48" y2="198.12" width="0.1524" layer="91"/>
 <wire x1="284.48" y1="198.12" x2="276.86" y2="198.12" width="0.1524" layer="91"/>
 <pinref part="JP2" gate="A" pin="1"/>
-</segment>
-</net>
-<net name="N$27" class="0">
-<segment>
-<pinref part="U$2" gate="G$1" pin="STAT2"/>
-<wire x1="266.7" y1="182.88" x2="314.96" y2="182.88" width="0.1524" layer="91"/>
-<pinref part="R21" gate="G$1" pin="2"/>
-<wire x1="314.96" y1="182.88" x2="314.96" y2="185.42" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$28" class="0">
-<segment>
-<pinref part="U$2" gate="G$1" pin="WARN2"/>
-<pinref part="R20" gate="G$1" pin="2"/>
-<wire x1="266.7" y1="185.42" x2="307.34" y2="185.42" width="0.1524" layer="91"/>
-<wire x1="307.34" y1="185.42" x2="307.34" y2="187.96" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$29" class="0">
-<segment>
-<pinref part="U$2" gate="G$1" pin="WARN1"/>
-<pinref part="R19" gate="G$1" pin="2"/>
-<wire x1="266.7" y1="190.5" x2="297.18" y2="190.5" width="0.1524" layer="91"/>
-<wire x1="297.18" y1="190.5" x2="297.18" y2="193.04" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$30" class="0">
-<segment>
-<pinref part="U$2" gate="G$1" pin="STAT1"/>
-<pinref part="R18" gate="G$1" pin="2"/>
-<wire x1="266.7" y1="193.04" x2="289.56" y2="193.04" width="0.1524" layer="91"/>
-<wire x1="289.56" y1="193.04" x2="289.56" y2="195.58" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$31" class="0">
-<segment>
-<pinref part="R18" gate="G$1" pin="1"/>
-<wire x1="289.56" y1="205.74" x2="289.56" y2="208.28" width="0.1524" layer="91"/>
-<pinref part="R21" gate="G$1" pin="1"/>
-<wire x1="289.56" y1="208.28" x2="297.18" y2="208.28" width="0.1524" layer="91"/>
-<wire x1="297.18" y1="208.28" x2="307.34" y2="208.28" width="0.1524" layer="91"/>
-<wire x1="307.34" y1="208.28" x2="314.96" y2="208.28" width="0.1524" layer="91"/>
-<wire x1="314.96" y1="208.28" x2="314.96" y2="195.58" width="0.1524" layer="91"/>
-<pinref part="R20" gate="G$1" pin="1"/>
-<wire x1="307.34" y1="198.12" x2="307.34" y2="208.28" width="0.1524" layer="91"/>
-<pinref part="R19" gate="G$1" pin="1"/>
-<wire x1="297.18" y1="203.2" x2="297.18" y2="208.28" width="0.1524" layer="91"/>
-<junction x="297.18" y="208.28"/>
-<junction x="307.34" y="208.28"/>
-<pinref part="TP-VCCSTAT" gate="G$1" pin="TP"/>
-<wire x1="314.96" y1="231.14" x2="314.96" y2="208.28" width="0.1524" layer="91"/>
-<junction x="314.96" y="208.28"/>
 </segment>
 </net>
 <net name="N$32" class="0">
@@ -16701,11 +16744,161 @@ package DONE</text>
 <wire x1="-393.7" y1="93.98" x2="-393.7" y2="99.06" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="MB_PWR_GPS_SENSE" class="0">
+<net name="MB-GPS-WAKEUP" class="0">
 <segment>
-<wire x1="-233.68" y1="-71.12" x2="-154.94" y2="-71.12" width="0.1524" layer="91"/>
-<label x="-238.76" y="-71.12" size="1.778" layer="95"/>
-<pinref part="IC1" gate="G$1" pin="P2.2/UCA0CLK/TB0.4/RTCCLK/S16"/>
+<wire x1="-7.62" y1="-45.72" x2="-5.08" y2="-48.26" width="0.1524" layer="91"/>
+<wire x1="-5.08" y1="-48.26" x2="93.98" y2="-48.26" width="0.1524" layer="91"/>
+<label x="96.52" y="-45.72" size="1.778" layer="95"/>
+<pinref part="IC1" gate="G$1" pin="P9.0/ESICH0/ESITEST0/A8/C8"/>
+</segment>
+<segment>
+<wire x1="180.34" y1="44.45" x2="194.31" y2="44.45" width="0.1524" layer="91"/>
+<label x="172.72" y="44.45" size="1.016" layer="95"/>
+<pinref part="SV1" gate="G$1" pin="4"/>
+</segment>
+<segment>
+<pinref part="R34" gate="G$1" pin="1"/>
+<wire x1="360.68" y1="-194.31" x2="314.96" y2="-194.31" width="0.1524" layer="91"/>
+<label x="360.68" y="-194.31" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="MB-GPS-TIMEPULSE" class="0">
+<segment>
+<wire x1="-233.68" y1="-73.66" x2="-154.94" y2="-73.66" width="0.1524" layer="91"/>
+<label x="-238.76" y="-73.66" size="1.778" layer="95"/>
+<pinref part="IC1" gate="G$1" pin="P2.1/UCA0SOMI/UCA0RXD/TB0.5/DMAE0/S15"/>
+</segment>
+<segment>
+<wire x1="180.34" y1="46.99" x2="194.31" y2="46.99" width="0.1524" layer="91"/>
+<label x="172.72" y="46.99" size="1.016" layer="95"/>
+<pinref part="SV1" gate="G$1" pin="3"/>
+</segment>
+<segment>
+<pinref part="R35" gate="G$1" pin="1"/>
+<label x="360.68" y="-196.85" size="1.778" layer="95"/>
+<wire x1="330.2" y1="-196.85" x2="360.68" y2="-196.85" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="MB-GPS-TX" class="0">
+<segment>
+<pinref part="IC1" gate="G$1" pin="P3.5/UCA1SOMI/UCA1RXD/TB0.1/S20"/>
+<wire x1="-154.94" y1="-60.96" x2="-233.68" y2="-60.96" width="0.1524" layer="91"/>
+<label x="-238.76" y="-60.96" size="1.778" layer="95"/>
+</segment>
+<segment>
+<wire x1="180.34" y1="41.91" x2="194.31" y2="41.91" width="0.1524" layer="91"/>
+<label x="172.72" y="41.91" size="1.016" layer="95"/>
+<pinref part="SV1" gate="G$1" pin="5"/>
+</segment>
+<segment>
+<label x="182.88" y="-201.93" size="1.778" layer="95"/>
+<pinref part="R33" gate="G$1" pin="1"/>
+<wire x1="233.68" y1="-201.93" x2="220.98" y2="-201.93" width="0.1524" layer="91"/>
+<wire x1="220.98" y1="-201.93" x2="200.66" y2="-201.93" width="0.1524" layer="91"/>
+<wire x1="200.66" y1="-201.93" x2="193.04" y2="-201.93" width="0.1524" layer="91"/>
+<wire x1="220.98" y1="-189.23" x2="220.98" y2="-201.93" width="0.1524" layer="91"/>
+<junction x="220.98" y="-201.93"/>
+<pinref part="TP-GPSTX1" gate="G$1" pin="TP"/>
+<wire x1="200.66" y1="-229.87" x2="200.66" y2="-201.93" width="0.1524" layer="91"/>
+<junction x="200.66" y="-201.93"/>
+<pinref part="FB5" gate="G$1" pin="2"/>
+</segment>
+</net>
+<net name="MB-GPS-RX" class="0">
+<segment>
+<label x="-238.76" y="-58.42" size="1.778" layer="95"/>
+<pinref part="R23" gate="G$1" pin="2"/>
+<wire x1="-170.18" y1="-58.42" x2="-233.68" y2="-58.42" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<wire x1="194.31" y1="39.37" x2="180.34" y2="39.37" width="0.1524" layer="91"/>
+<label x="172.72" y="39.37" size="1.016" layer="95"/>
+<pinref part="SV1" gate="G$1" pin="6"/>
+</segment>
+<segment>
+<label x="182.88" y="-199.39" size="1.778" layer="95"/>
+<pinref part="R17" gate="G$1" pin="1"/>
+<wire x1="233.68" y1="-199.39" x2="228.6" y2="-199.39" width="0.1524" layer="91"/>
+<wire x1="228.6" y1="-199.39" x2="205.74" y2="-199.39" width="0.1524" layer="91"/>
+<wire x1="205.74" y1="-199.39" x2="193.04" y2="-199.39" width="0.1524" layer="91"/>
+<wire x1="228.6" y1="-189.23" x2="228.6" y2="-199.39" width="0.1524" layer="91"/>
+<junction x="228.6" y="-199.39"/>
+<pinref part="TP-GPSRX1" gate="G$1" pin="TP"/>
+<wire x1="205.74" y1="-229.87" x2="205.74" y2="-199.39" width="0.1524" layer="91"/>
+<junction x="205.74" y="-199.39"/>
+<pinref part="FB4" gate="G$1" pin="2"/>
+</segment>
+</net>
+<net name="N$46" class="0">
+<segment>
+<pinref part="U$6" gate="G$1" pin="EXTINT"/>
+<pinref part="R34" gate="G$1" pin="2"/>
+<wire x1="304.8" y1="-194.31" x2="281.94" y2="-194.31" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$47" class="0">
+<segment>
+<pinref part="R35" gate="G$1" pin="2"/>
+<wire x1="294.64" y1="-196.85" x2="320.04" y2="-196.85" width="0.1524" layer="91"/>
+<pinref part="FB6" gate="G$1" pin="2"/>
+</segment>
+</net>
+<net name="N$48" class="0">
+<segment>
+<pinref part="U$6" gate="G$1" pin="RXD"/>
+<wire x1="248.92" y1="-199.39" x2="243.84" y2="-199.39" width="0.1524" layer="91"/>
+<pinref part="FB4" gate="G$1" pin="1"/>
+</segment>
+</net>
+<net name="N$49" class="0">
+<segment>
+<pinref part="U$6" gate="G$1" pin="TXD"/>
+<wire x1="248.92" y1="-201.93" x2="243.84" y2="-201.93" width="0.1524" layer="91"/>
+<pinref part="FB5" gate="G$1" pin="1"/>
+</segment>
+</net>
+<net name="N$50" class="0">
+<segment>
+<pinref part="FB6" gate="G$1" pin="1"/>
+<pinref part="U$6" gate="G$1" pin="TIMEPULSE"/>
+<wire x1="281.94" y1="-196.85" x2="284.48" y2="-196.85" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="MB-PWR_GPS_SENSE" class="0">
+<segment>
+<wire x1="281.94" y1="-186.69" x2="289.56" y2="-186.69" width="0.1524" layer="91"/>
+<wire x1="289.56" y1="-186.69" x2="289.56" y2="-184.15" width="0.1524" layer="91"/>
+<wire x1="289.56" y1="-184.15" x2="289.56" y2="-181.61" width="0.1524" layer="91"/>
+<wire x1="289.56" y1="-181.61" x2="281.94" y2="-181.61" width="0.1524" layer="91"/>
+<wire x1="281.94" y1="-184.15" x2="289.56" y2="-184.15" width="0.1524" layer="91"/>
+<junction x="289.56" y="-184.15"/>
+<pinref part="U$6" gate="G$1" pin="V_BCKP"/>
+<pinref part="U$6" gate="G$1" pin="VCC_IO"/>
+<pinref part="U$6" gate="G$1" pin="VCC"/>
+<junction x="289.56" y="-181.61"/>
+<wire x1="289.56" y1="-173.99" x2="289.56" y2="-166.37" width="0.1524" layer="91"/>
+<pinref part="R17" gate="G$1" pin="2"/>
+<wire x1="289.56" y1="-166.37" x2="228.6" y2="-166.37" width="0.1524" layer="91"/>
+<wire x1="228.6" y1="-166.37" x2="228.6" y2="-179.07" width="0.1524" layer="91"/>
+<pinref part="R33" gate="G$1" pin="2"/>
+<wire x1="228.6" y1="-166.37" x2="220.98" y2="-166.37" width="0.1524" layer="91"/>
+<wire x1="220.98" y1="-166.37" x2="220.98" y2="-179.07" width="0.1524" layer="91"/>
+<junction x="228.6" y="-166.37"/>
+<pinref part="TP-GPSPWR1" gate="G$1" pin="TP"/>
+<wire x1="220.98" y1="-146.05" x2="220.98" y2="-166.37" width="0.1524" layer="91"/>
+<junction x="220.98" y="-166.37"/>
+<pinref part="C13" gate="G$1" pin="2"/>
+<wire x1="294.64" y1="-186.69" x2="289.56" y2="-186.69" width="0.1524" layer="91"/>
+<wire x1="289.56" y1="-173.99" x2="307.34" y2="-173.99" width="0.1524" layer="91"/>
+<junction x="307.34" y="-173.99"/>
+<pinref part="C14" gate="G$1" pin="1"/>
+<wire x1="307.34" y1="-176.53" x2="307.34" y2="-173.99" width="0.1524" layer="91"/>
+<wire x1="289.56" y1="-181.61" x2="289.56" y2="-173.99" width="0.1524" layer="91"/>
+<wire x1="289.56" y1="-173.99" x2="289.56" y2="-186.69" width="0.1524" layer="91"/>
+<junction x="289.56" y="-186.69"/>
+<wire x1="307.34" y1="-173.99" x2="360.68" y2="-173.99" width="0.1524" layer="91"/>
+<label x="360.68" y="-173.99" size="1.778" layer="95"/>
+<junction x="289.56" y="-173.99"/>
 </segment>
 <segment>
 <label x="172.72" y="52.07" size="1.016" layer="95"/>
@@ -16720,54 +16913,18 @@ package DONE</text>
 <wire x1="168.91" y1="52.07" x2="194.31" y2="52.07" width="0.1524" layer="91"/>
 <wire x1="168.91" y1="52.07" x2="168.91" y2="57.15" width="0.1524" layer="91"/>
 </segment>
-</net>
-<net name="MB-GPS-WAKEUP" class="0">
 <segment>
-<wire x1="-7.62" y1="-45.72" x2="-5.08" y2="-48.26" width="0.1524" layer="91"/>
-<wire x1="-5.08" y1="-48.26" x2="93.98" y2="-48.26" width="0.1524" layer="91"/>
-<label x="96.52" y="-45.72" size="1.778" layer="95"/>
-<pinref part="IC1" gate="G$1" pin="P9.0/ESICH0/ESITEST0/A8/C8"/>
-</segment>
-<segment>
-<wire x1="180.34" y1="44.45" x2="194.31" y2="44.45" width="0.1524" layer="91"/>
-<label x="172.72" y="44.45" size="1.016" layer="95"/>
-<pinref part="SV1" gate="G$1" pin="4"/>
+<wire x1="-233.68" y1="-71.12" x2="-154.94" y2="-71.12" width="0.1524" layer="91"/>
+<label x="-238.76" y="-71.12" size="1.778" layer="95"/>
+<pinref part="IC1" gate="G$1" pin="P2.2/UCA0CLK/TB0.4/RTCCLK/S16"/>
 </segment>
 </net>
-<net name="MB-GPS-TIMEPULSE" class="0">
+<net name="N$27" class="1">
 <segment>
-<wire x1="-233.68" y1="-73.66" x2="-154.94" y2="-73.66" width="0.1524" layer="91"/>
-<label x="-238.76" y="-73.66" size="1.778" layer="95"/>
-<pinref part="IC1" gate="G$1" pin="P2.1/UCA0SOMI/UCA0RXD/TB0.5/DMAE0/S15"/>
-</segment>
-<segment>
-<wire x1="180.34" y1="46.99" x2="194.31" y2="46.99" width="0.1524" layer="91"/>
-<label x="172.72" y="46.99" size="1.016" layer="95"/>
-<pinref part="SV1" gate="G$1" pin="3"/>
-</segment>
-</net>
-<net name="MB-GPS-TX" class="0">
-<segment>
-<pinref part="IC1" gate="G$1" pin="P3.5/UCA1SOMI/UCA1RXD/TB0.1/S20"/>
-<wire x1="-154.94" y1="-60.96" x2="-233.68" y2="-60.96" width="0.1524" layer="91"/>
-<label x="-238.76" y="-60.96" size="1.778" layer="95"/>
-</segment>
-<segment>
-<wire x1="180.34" y1="41.91" x2="194.31" y2="41.91" width="0.1524" layer="91"/>
-<label x="172.72" y="41.91" size="1.016" layer="95"/>
-<pinref part="SV1" gate="G$1" pin="5"/>
-</segment>
-</net>
-<net name="MB-GPS-RX" class="0">
-<segment>
-<label x="-238.76" y="-58.42" size="1.778" layer="95"/>
-<pinref part="R23" gate="G$1" pin="2"/>
-<wire x1="-170.18" y1="-58.42" x2="-233.68" y2="-58.42" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<wire x1="194.31" y1="39.37" x2="180.34" y2="39.37" width="0.1524" layer="91"/>
-<label x="172.72" y="39.37" size="1.016" layer="95"/>
-<pinref part="SV1" gate="G$1" pin="6"/>
+<pinref part="U$6" gate="G$1" pin="RF_IN"/>
+<pinref part="U$5" gate="G$1" pin="FEED"/>
+<wire x1="248.92" y1="-184.15" x2="233.68" y2="-184.15" width="0.1524" layer="91"/>
+<wire x1="233.68" y1="-184.15" x2="233.68" y2="-157.48" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
