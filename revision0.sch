@@ -15209,7 +15209,7 @@ Source: www.kingbright.com</description>
 <part name="U$3" library="tagps" deviceset="MAX-8C-0" device=""/>
 <part name="U$2" library="tagps" deviceset="LTC4415" device=""/>
 <part name="R4" library="tagps" deviceset="R-EU_" device="R0805" value="100k"/>
-<part name="R5" library="tagps" deviceset="R-EU_" device="R0805" value="21.5k"/>
+<part name="R5" library="tagps" deviceset="R-EU_" device="R0805" value="39.2k"/>
 <part name="GND15" library="supply1" deviceset="GND" device=""/>
 <part name="P+2" library="tagps" deviceset="VCC" device="" value="VCC_BATT_IN"/>
 <part name="P+6" library="tagps" deviceset="VCC" device="" value="VCC2_IN"/>

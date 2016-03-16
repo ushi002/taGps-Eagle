@@ -1292,7 +1292,7 @@ Please make sure your boards conform to these design rules.</description>
 <element name="R4" library="tagps" package="R0805" value="100k" x="48.8" y="69" rot="R270">
 <attribute name="SPICEPREFIX" value="R" x="48.8" y="69" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="R5" library="tagps" package="R0805" value="21.5k" x="50.1" y="60.4" rot="R270">
+<element name="R5" library="tagps" package="R0805" value="39.2k" x="50.1" y="60.4" rot="R270">
 <attribute name="SPICEPREFIX" value="R" x="50.1" y="60.4" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="R6" library="tagps" package="R0805" value="160" x="24.9" y="48.55">
