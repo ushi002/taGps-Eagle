@@ -15183,32 +15183,32 @@ Source: www.kingbright.com</description>
 <part name="GND6" library="supply1" deviceset="GND" device=""/>
 <part name="P+1" library="tagps" deviceset="VCC" device="" value="VCC"/>
 <part name="P+3" library="tagps" deviceset="VCC" device="" value="VCC"/>
-<part name="C3" library="tagps" deviceset="C-EU" device="C0805" value="100n"/>
-<part name="C4" library="tagps" deviceset="C-EU" device="C0805" value="1u"/>
-<part name="C5" library="tagps" deviceset="C-EU" device="C0805" value="100n"/>
-<part name="C6" library="tagps" deviceset="C-EU" device="C0805" value="1u"/>
+<part name="C3" library="tagps" deviceset="C-EU" device="C0603" value="100n"/>
+<part name="C4" library="tagps" deviceset="C-EU" device="C0603" value="1u"/>
+<part name="C5" library="tagps" deviceset="C-EU" device="C0603" value="100n"/>
+<part name="C6" library="tagps" deviceset="C-EU" device="C0603" value="1u"/>
 <part name="GND8" library="supply1" deviceset="GND" device=""/>
 <part name="P+4" library="tagps" deviceset="VCC" device="" value="VCC"/>
-<part name="C7" library="tagps" deviceset="C-EU" device="C0805" value="100n"/>
-<part name="C8" library="tagps" deviceset="C-EU" device="C0805" value="1u"/>
+<part name="C7" library="tagps" deviceset="C-EU" device="C0603" value="100n"/>
+<part name="C8" library="tagps" deviceset="C-EU" device="C0603" value="1u"/>
 <part name="GND9" library="supply1" deviceset="GND" device=""/>
 <part name="P+5" library="tagps" deviceset="VCC" device="" value="VCC"/>
-<part name="C9" library="tagps" deviceset="C-EU" device="C0805" value="100n"/>
-<part name="C10" library="tagps" deviceset="C-EU" device="C0805" value="1u"/>
+<part name="C9" library="tagps" deviceset="C-EU" device="C0603" value="100n"/>
+<part name="C10" library="tagps" deviceset="C-EU" device="C0603" value="1u"/>
 <part name="GND10" library="supply1" deviceset="GND" device=""/>
 <part name="VCC_BATT" library="tagps" deviceset="VCC" device="" value="VCC"/>
-<part name="C11" library="tagps" deviceset="C-EU" device="C0805" value="100n"/>
-<part name="C12" library="tagps" deviceset="C-EU" device="C0805" value="1u"/>
+<part name="C11" library="tagps" deviceset="C-EU" device="C0603" value="100n"/>
+<part name="C12" library="tagps" deviceset="C-EU" device="C0603" value="1u"/>
 <part name="GND11" library="supply1" deviceset="GND" device=""/>
 <part name="P+7" library="tagps" deviceset="VCC" device=""/>
 <part name="GND13" library="supply1" deviceset="GND" device=""/>
-<part name="R3" library="tagps" deviceset="R-EU_" device="R0805" value="47k"/>
-<part name="C15" library="tagps" deviceset="C-EU" device="C0805" value="1 n"/>
+<part name="R3" library="tagps" deviceset="R-EU_" device="R0603" value="47k"/>
+<part name="C15" library="tagps" deviceset="C-EU" device="C0603" value="1 n"/>
 <part name="GND14" library="supply1" deviceset="GND" device=""/>
 <part name="U$3" library="tagps" deviceset="MAX-8C-0" device=""/>
 <part name="U$2" library="tagps" deviceset="LTC4415" device=""/>
-<part name="R4" library="tagps" deviceset="R-EU_" device="R0805" value="100k"/>
-<part name="R5" library="tagps" deviceset="R-EU_" device="R0805" value="39.2k"/>
+<part name="R4" library="tagps" deviceset="R-EU_" device="R0603" value="100k"/>
+<part name="R5" library="tagps" deviceset="R-EU_" device="R0603" value="39.2k"/>
 <part name="GND15" library="supply1" deviceset="GND" device=""/>
 <part name="P+2" library="tagps" deviceset="VCC" device="" value="VCC_BATT_IN"/>
 <part name="P+6" library="tagps" deviceset="VCC" device="" value="VCC2_IN"/>
@@ -15222,45 +15222,45 @@ Source: www.kingbright.com</description>
 <part name="GND19" library="supply1" deviceset="GND" device=""/>
 <part name="P+10" library="tagps" deviceset="VCC" device="" value="VCC"/>
 <part name="P+13" library="tagps" deviceset="VCC" device="" value="VCC2_IN"/>
-<part name="C19" library="tagps" deviceset="C-EU" device="C0805" value="100nF"/>
+<part name="C19" library="tagps" deviceset="C-EU" device="C0603" value="100nF"/>
 <part name="GND20" library="supply1" deviceset="GND" device=""/>
 <part name="GND21" library="supply1" deviceset="GND" device=""/>
 <part name="GND22" library="supply1" deviceset="GND" device=""/>
 <part name="GND23" library="supply1" deviceset="GND" device=""/>
-<part name="C21" library="tagps" deviceset="C-EU" device="C0805" value="100nF"/>
+<part name="C21" library="tagps" deviceset="C-EU" device="C0603" value="100nF"/>
 <part name="P+12" library="tagps" deviceset="VCC" device="" value="VBUS"/>
-<part name="R8" library="tagps" deviceset="R-EU_" device="R0805" value="100"/>
-<part name="R9" library="tagps" deviceset="R-EU_" device="R0805" value="33k"/>
-<part name="R10" library="tagps" deviceset="R-EU_" device="R0805" value="33k"/>
-<part name="R11" library="tagps" deviceset="R-EU_" device="R0805" value="100"/>
-<part name="R13" library="tagps" deviceset="R-EU_" device="R0805" value="240"/>
-<part name="R14" library="tagps" deviceset="R-EU_" device="R0805" value="220"/>
+<part name="R8" library="tagps" deviceset="R-EU_" device="R0603" value="100"/>
+<part name="R9" library="tagps" deviceset="R-EU_" device="R0603" value="33k"/>
+<part name="R10" library="tagps" deviceset="R-EU_" device="R0603" value="33k"/>
+<part name="R11" library="tagps" deviceset="R-EU_" device="R0603" value="100"/>
+<part name="R13" library="tagps" deviceset="R-EU_" device="R0603" value="240"/>
+<part name="R14" library="tagps" deviceset="R-EU_" device="R0603" value="220"/>
 <part name="GND28" library="supply1" deviceset="GND" device=""/>
 <part name="U$1" library="tagps" deviceset="AT45DB641E-SHN" device="JSOP-08"/>
 <part name="P+18" library="tagps" deviceset="VCC" device="" value="VCC"/>
-<part name="R1" library="tagps" deviceset="R-EU_" device="R0805" value="470k"/>
-<part name="R2" library="tagps" deviceset="R-EU_" device="R0805" value="470k"/>
+<part name="R1" library="tagps" deviceset="R-EU_" device="R0603" value="470k"/>
+<part name="R2" library="tagps" deviceset="R-EU_" device="R0603" value="470k"/>
 <part name="P+19" library="tagps" deviceset="VCC" device="" value="VCC"/>
-<part name="R12" library="tagps" deviceset="R-EU_" device="R0805" value="470k"/>
-<part name="C1" library="tagps" deviceset="C-EU" device="C0805" value="1u"/>
-<part name="C2" library="tagps" deviceset="C-EU" device="C0805" value="100n"/>
+<part name="R12" library="tagps" deviceset="R-EU_" device="R0603" value="470k"/>
+<part name="C1" library="tagps" deviceset="C-EU" device="C0603" value="1u"/>
+<part name="C2" library="tagps" deviceset="C-EU" device="C0603" value="100n"/>
 <part name="C24" library="tagps" deviceset="C-EU" device="C0805" value="4.7uF"/>
 <part name="GND1" library="supply1" deviceset="GND" device=""/>
-<part name="R15" library="tagps" deviceset="R-EU_" device="R0805" value="1k"/>
-<part name="R16" library="tagps" deviceset="R-EU_" device="R0805" value="1k"/>
+<part name="R15" library="tagps" deviceset="R-EU_" device="R0603" value="1k"/>
+<part name="R16" library="tagps" deviceset="R-EU_" device="R0603" value="1k"/>
 <part name="GND2" library="supply1" deviceset="GND" device=""/>
 <part name="GND3" library="supply1" deviceset="GND" device=""/>
 <part name="C25" library="tagps" deviceset="C-EU" device="C0805" value="4.7uF at least"/>
 <part name="GND29" library="supply1" deviceset="GND" device=""/>
 <part name="GND30" library="supply1" deviceset="GND" device=""/>
 <part name="G2" library="tagps" deviceset="BATTERY" device=""/>
-<part name="C26" library="tagps" deviceset="C-EU" device="C0805" value="470pF"/>
+<part name="C26" library="tagps" deviceset="C-EU" device="C0603" value="470pF"/>
 <part name="GND31" library="supply1" deviceset="GND" device=""/>
 <part name="X1" library="tagps" deviceset="USB-787616" device=""/>
 <part name="P+20" library="tagps" deviceset="VCC" device="" value="VBUS"/>
 <part name="P+11" library="tagps" deviceset="VCC" device="" value="VCC2_IN"/>
 <part name="P+17" library="tagps" deviceset="VCC" device="" value="VCC2_IN"/>
-<part name="R7" library="tagps" deviceset="R-EU_" device="R0805" value="100"/>
+<part name="R7" library="tagps" deviceset="R-EU_" device="R0603" value="100"/>
 <part name="C22" library="tagps" deviceset="CPOL-EU" device="A/3216-18W" value="1uF"/>
 <part name="C27" library="tagps" deviceset="CPOL-EU" device="A/3216-18W" value="1uF"/>
 <part name="C28" library="tagps" deviceset="CPOL-EU" device="A/3216-18W" value="4.7uF"/>
@@ -15273,20 +15273,20 @@ Source: www.kingbright.com</description>
 <part name="TP-PWRBATT" library="tagps" deviceset="TPSQ" device="PAD1-13" value="TPSQPAD1-13"/>
 <part name="GND26" library="supply1" deviceset="GND" device=""/>
 <part name="S2" library="tagps" deviceset="2P2T" device=""/>
-<part name="R24" library="tagps" deviceset="R-EU_" device="R0805" value="100k"/>
-<part name="R25" library="tagps" deviceset="R-EU_" device="R0805" value="100k"/>
-<part name="R26" library="tagps" deviceset="R-EU_" device="R0805" value="0"/>
+<part name="R24" library="tagps" deviceset="R-EU_" device="R0603" value="100k"/>
+<part name="R25" library="tagps" deviceset="R-EU_" device="R0603" value="100k"/>
+<part name="R26" library="tagps" deviceset="R-EU_" device="R0603" value="0"/>
 <part name="S3" library="tagps" deviceset="SWITCH-10-XX" device=""/>
 <part name="TP-GPSTX" library="tagps" deviceset="TPSQ" device="TP10R" value="TPSQTP10R"/>
 <part name="TP-GPSRX" library="tagps" deviceset="TPSQ" device="TP10R" value="TPSQTP10R"/>
-<part name="C16" library="tagps" deviceset="C-EU" device="C0805" value="100n"/>
-<part name="C17" library="tagps" deviceset="C-EU" device="C0805" value="1u"/>
+<part name="C16" library="tagps" deviceset="C-EU" device="C0603" value="100n"/>
+<part name="C17" library="tagps" deviceset="C-EU" device="C0603" value="1u"/>
 <part name="GND33" library="supply1" deviceset="GND" device=""/>
 <part name="TP-GPSPWR" library="tagps" deviceset="TPSQ" device="TP10R" value="TPSQTP10R"/>
-<part name="R28" library="tagps" deviceset="R-EU_" device="R0805" value="0"/>
-<part name="R29" library="tagps" deviceset="R-EU_" device="R0805" value="100"/>
-<part name="R30" library="tagps" deviceset="R-EU_" device="R0805" value="100"/>
-<part name="R31" library="tagps" deviceset="R-EU_" device="R0805" value="100"/>
+<part name="R28" library="tagps" deviceset="R-EU_" device="R0603" value="0"/>
+<part name="R29" library="tagps" deviceset="R-EU_" device="R0603" value="100"/>
+<part name="R30" library="tagps" deviceset="R-EU_" device="R0603" value="100"/>
+<part name="R31" library="tagps" deviceset="R-EU_" device="R0603" value="100"/>
 <part name="FB1" library="tagps" deviceset="R-EU_" device="R0805" value="0"/>
 <part name="FB2" library="tagps" deviceset="R-EU_" device="R0805" value="0"/>
 <part name="FB3" library="tagps" deviceset="R-EU_" device="R0805" value="0"/>
@@ -15295,19 +15295,19 @@ Source: www.kingbright.com</description>
 <part name="VAR2" library="tagps" deviceset="VARISTOR" device="CN0603"/>
 <part name="L1" library="tagps" deviceset="R-EU_" device="R0603"/>
 <part name="TP-ADC-VREF" library="tagps" deviceset="TPSQ" device="TP10R" value="TPSQTP10R"/>
-<part name="R32" library="tagps" deviceset="R-EU_" device="R0805" value="100"/>
-<part name="C20" library="tagps" deviceset="C-EU" device="C0805" value="10nF"/>
+<part name="R32" library="tagps" deviceset="R-EU_" device="R0603" value="100"/>
+<part name="C20" library="tagps" deviceset="C-EU" device="C0603" value="10nF"/>
 <part name="S4" library="tagps" deviceset="SWITCH-10-XX" device="" value="RESET"/>
-<part name="R6" library="tagps" deviceset="R-EU_" device="R0805" value="160"/>
-<part name="R22" library="tagps" deviceset="R-EU_" device="R0805" value="180"/>
+<part name="R6" library="tagps" deviceset="R-EU_" device="R0603" value="160"/>
+<part name="R22" library="tagps" deviceset="R-EU_" device="R0603" value="180"/>
 <part name="LED1" library="tagps" deviceset="BILED" device="BILED"/>
 <part name="GND24" library="supply1" deviceset="GND" device=""/>
 <part name="GND25" library="supply1" deviceset="GND" device=""/>
 <part name="LED2" library="tagps" deviceset="BILED" device="BILED"/>
 <part name="P+16" library="tagps" deviceset="VCC" device="" value="VCC"/>
-<part name="R23" library="tagps" deviceset="R-EU_" device="R0805" value="100"/>
+<part name="R23" library="tagps" deviceset="R-EU_" device="R0603" value="100"/>
 <part name="LED3" library="tagps" deviceset="LED_E" device=""/>
-<part name="R27" library="tagps" deviceset="R-EU_" device="R0805" value="150"/>
+<part name="R27" library="tagps" deviceset="R-EU_" device="R0603" value="150"/>
 <part name="GND27" library="supply1" deviceset="GND" device=""/>
 <part name="P+21" library="tagps" deviceset="VCC" device="" value="VBUS"/>
 <part name="SBW" library="tagps" deviceset="PINHD-1X3" device=""/>
@@ -15321,24 +15321,24 @@ Source: www.kingbright.com</description>
 <part name="GND34" library="supply1" deviceset="GND" device=""/>
 <part name="U$5" library="tagps" deviceset="MWSL1251" device=""/>
 <part name="U$6" library="tagps" deviceset="MAX-8C-0" device=""/>
-<part name="R17" library="tagps" deviceset="R-EU_" device="R0805" value="100k"/>
-<part name="R33" library="tagps" deviceset="R-EU_" device="R0805" value="100k"/>
-<part name="R34" library="tagps" deviceset="R-EU_" device="R0805" value="0"/>
+<part name="R17" library="tagps" deviceset="R-EU_" device="R0603" value="100k"/>
+<part name="R33" library="tagps" deviceset="R-EU_" device="R0603" value="100k"/>
+<part name="R34" library="tagps" deviceset="R-EU_" device="R0603" value="0"/>
 <part name="TP-GPSTX1" library="tagps" deviceset="TPSQ" device="TP10R" value="TPSQTP10R"/>
 <part name="TP-GPSRX1" library="tagps" deviceset="TPSQ" device="TP10R" value="TPSQTP10R"/>
-<part name="C13" library="tagps" deviceset="C-EU" device="C0805" value="100n"/>
-<part name="C14" library="tagps" deviceset="C-EU" device="C0805" value="1u"/>
+<part name="C13" library="tagps" deviceset="C-EU" device="C0603" value="100n"/>
+<part name="C14" library="tagps" deviceset="C-EU" device="C0603" value="1u"/>
 <part name="GND35" library="supply1" deviceset="GND" device=""/>
 <part name="TP-GPSPWR1" library="tagps" deviceset="TPSQ" device="TP10R" value="TPSQTP10R"/>
-<part name="R35" library="tagps" deviceset="R-EU_" device="R0805" value="0"/>
+<part name="R35" library="tagps" deviceset="R-EU_" device="R0603" value="0"/>
 <part name="FB4" library="tagps" deviceset="R-EU_" device="R0805" value="0"/>
 <part name="FB5" library="tagps" deviceset="R-EU_" device="R0805" value="0"/>
 <part name="FB6" library="tagps" deviceset="R-EU_" device="R0805" value="0"/>
 <part name="GND37" library="supply1" deviceset="GND" device=""/>
 <part name="GND36" library="supply1" deviceset="GND" device=""/>
 <part name="U$7" library="tagps" deviceset="MAX-8C-0" device=""/>
-<part name="C23" library="tagps" deviceset="C-EU" device="C0805" value="100n"/>
-<part name="C29" library="tagps" deviceset="C-EU" device="C0805" value="1u"/>
+<part name="C23" library="tagps" deviceset="C-EU" device="C0603" value="100n"/>
+<part name="C29" library="tagps" deviceset="C-EU" device="C0603" value="1u"/>
 <part name="GND38" library="supply1" deviceset="GND" device=""/>
 <part name="GND39" library="supply1" deviceset="GND" device=""/>
 </parts>
