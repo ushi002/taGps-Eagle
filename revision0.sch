@@ -3738,36 +3738,35 @@ http://www.ftdichip.com/Documents/DataSheets/DS_FT232R_v104.pdf</description>
 <smd name="8" x="9.6" y="8.35" dx="1.8" dy="0.8" layer="1"/>
 <circle x="8" y="0.8" radius="0.335409375" width="0.127" layer="51"/>
 </package>
-<package name="SOIC8">
-<description>&lt;b&gt;SOIC-8&lt;/b&gt; CASE 751-07&lt;p&gt;
-Source: http://www.onsemi.com/pub/Collateral/MC34164-D.PDF&lt;p&gt;
-&lt;b&gt;D (R-PDSO-G8)&lt;/b&gt;PLATIC SMALL-OUTLINE PACKAGE&lt;br&gt;
-Source: http://focus.ti.com/lit/ds/symlink/tlc27l2.pdf</description>
-<wire x1="2.4" y1="1.9" x2="2.4" y2="-1.4" width="0.2032" layer="21"/>
-<wire x1="2.4" y1="-1.4" x2="2.4" y2="-1.9" width="0.2032" layer="21"/>
-<wire x1="2.4" y1="-1.9" x2="-2.4" y2="-1.9" width="0.2032" layer="51"/>
-<wire x1="-2.4" y1="-1.9" x2="-2.4" y2="-1.4" width="0.2032" layer="21"/>
-<wire x1="-2.4" y1="-1.4" x2="-2.4" y2="1.9" width="0.2032" layer="21"/>
-<wire x1="-2.4" y1="1.9" x2="2.4" y2="1.9" width="0.2032" layer="51"/>
-<wire x1="2.4" y1="-1.4" x2="-2.4" y2="-1.4" width="0.2032" layer="21"/>
-<smd name="2" x="-0.635" y="-2.75" dx="0.6" dy="1.5" layer="1"/>
-<smd name="7" x="-0.635" y="2.75" dx="0.6" dy="1.5" layer="1"/>
-<smd name="1" x="-1.905" y="-2.75" dx="0.6" dy="1.5" layer="1"/>
-<smd name="3" x="0.635" y="-2.75" dx="0.6" dy="1.5" layer="1"/>
-<smd name="4" x="1.905" y="-2.75" dx="0.6" dy="1.5" layer="1"/>
-<smd name="8" x="-1.905" y="2.75" dx="0.6" dy="1.5" layer="1"/>
-<smd name="6" x="0.635" y="2.75" dx="0.6" dy="1.5" layer="1"/>
-<smd name="5" x="1.905" y="2.75" dx="0.6" dy="1.5" layer="1"/>
-<text x="-2.667" y="-1.905" size="1.27" layer="25" rot="R90">&gt;NAME</text>
-<text x="3.937" y="-1.905" size="1.27" layer="27" rot="R90">&gt;VALUE</text>
-<rectangle x1="-2.15" y1="-3.1" x2="-1.66" y2="-2" layer="51"/>
-<rectangle x1="-0.88" y1="-3.1" x2="-0.39" y2="-2" layer="51"/>
-<rectangle x1="0.39" y1="-3.1" x2="0.88" y2="-2" layer="51"/>
-<rectangle x1="1.66" y1="-3.1" x2="2.15" y2="-2" layer="51"/>
-<rectangle x1="1.66" y1="2" x2="2.15" y2="3.1" layer="51"/>
-<rectangle x1="0.39" y1="2" x2="0.88" y2="3.1" layer="51"/>
-<rectangle x1="-0.88" y1="2" x2="-0.39" y2="3.1" layer="51"/>
-<rectangle x1="-2.15" y1="2" x2="-1.66" y2="3.1" layer="51"/>
+<package name="JSOP-08">
+<description>&lt;b&gt;JEDEC Small Outline Package&lt;/b&gt;</description>
+<wire x1="-2.54" y1="-2.667" x2="-2.54" y2="2.667" width="0.1524" layer="21"/>
+<wire x1="-2.54" y1="2.667" x2="2.54" y2="2.667" width="0.1524" layer="21"/>
+<wire x1="2.54" y1="2.667" x2="2.54" y2="-2.667" width="0.1524" layer="21"/>
+<wire x1="2.54" y1="-2.667" x2="-2.54" y2="-2.667" width="0.1524" layer="21"/>
+<wire x1="-2.286" y1="2.413" x2="2.286" y2="2.413" width="0.0508" layer="21"/>
+<wire x1="2.286" y1="2.413" x2="2.286" y2="-2.413" width="0.0508" layer="21"/>
+<wire x1="2.286" y1="-2.413" x2="-2.286" y2="-2.413" width="0.0508" layer="21"/>
+<wire x1="-2.286" y1="-2.413" x2="-2.286" y2="2.413" width="0.0508" layer="21"/>
+<circle x="-1.778" y="-1.905" radius="0.254" width="0" layer="21"/>
+<smd name="8" x="-1.897" y="3.429" dx="0.5" dy="1.2" layer="1"/>
+<smd name="7" x="-0.627" y="3.429" dx="0.5" dy="1.2" layer="1"/>
+<smd name="6" x="0.643" y="3.429" dx="0.5" dy="1.2" layer="1"/>
+<smd name="5" x="1.913" y="3.429" dx="0.5" dy="1.2" layer="1"/>
+<smd name="4" x="1.905" y="-3.429" dx="0.5" dy="1.2" layer="1"/>
+<smd name="3" x="0.635" y="-3.429" dx="0.5" dy="1.2" layer="1"/>
+<smd name="2" x="-0.635" y="-3.429" dx="0.5" dy="1.2" layer="1"/>
+<smd name="1" x="-1.905" y="-3.429" dx="0.5" dy="1.2" layer="1"/>
+<text x="-2.921" y="-2.667" size="1.27" layer="25" ratio="10" rot="R90">&gt;NAME</text>
+<text x="4.191" y="-2.667" size="1.27" layer="27" ratio="10" rot="R90">&gt;VALUE</text>
+<rectangle x1="-2.159" y1="2.667" x2="-1.651" y2="3.683" layer="51"/>
+<rectangle x1="-0.889" y1="2.667" x2="-0.381" y2="3.683" layer="51"/>
+<rectangle x1="0.381" y1="2.667" x2="0.889" y2="3.683" layer="51"/>
+<rectangle x1="1.651" y1="2.667" x2="2.159" y2="3.683" layer="51"/>
+<rectangle x1="-2.159" y1="-3.683" x2="-1.651" y2="-2.667" layer="51"/>
+<rectangle x1="-0.889" y1="-3.683" x2="-0.381" y2="-2.667" layer="51"/>
+<rectangle x1="0.381" y1="-3.683" x2="0.889" y2="-2.667" layer="51"/>
+<rectangle x1="1.651" y1="-3.683" x2="2.159" y2="-2.667" layer="51"/>
 </package>
 <package name="BATHOLD2AA">
 <pad name="+" x="-27.18" y="7.5" drill="1.02"/>
@@ -12526,7 +12525,7 @@ Source: http://www.ti.com/lit/ds/symlink/msp430fr6989.pdf</description>
 <gate name="G$1" symbol="AT45DB641E" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="SOIC8">
+<device name="JSOP-08" package="JSOP-08">
 <connects>
 <connect gate="G$1" pin="!CS" pad="4"/>
 <connect gate="G$1" pin="!RESET" pad="3"/>
@@ -15237,7 +15236,7 @@ Source: www.kingbright.com</description>
 <part name="R13" library="tagps" deviceset="R-EU_" device="R0805" value="240"/>
 <part name="R14" library="tagps" deviceset="R-EU_" device="R0805" value="220"/>
 <part name="GND28" library="supply1" deviceset="GND" device=""/>
-<part name="U$1" library="tagps" deviceset="AT45DB641E-SHN" device=""/>
+<part name="U$1" library="tagps" deviceset="AT45DB641E-SHN" device="JSOP-08"/>
 <part name="P+18" library="tagps" deviceset="VCC" device="" value="VCC"/>
 <part name="R1" library="tagps" deviceset="R-EU_" device="R0805" value="470k"/>
 <part name="R2" library="tagps" deviceset="R-EU_" device="R0805" value="470k"/>
