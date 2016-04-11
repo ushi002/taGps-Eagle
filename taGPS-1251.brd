@@ -83,6 +83,7 @@
 <text x="2.5" y="78.5" size="1.016" layer="100">PWRUSB</text>
 <dimension x1="0" y1="29" x2="41.5" y2="29" x3="20.75" y3="-10.999996875" textsize="1.778" layer="1"/>
 <dimension x1="0" y1="80" x2="0" y2="28" x3="-15" y3="54" textsize="1.778" layer="1"/>
+<text x="5.1" y="65.3" size="1.016" layer="100" rot="R90">GND TX RX VCC</text>
 </plain>
 <libraries>
 <library name="tagps">
@@ -874,7 +875,7 @@ Please make sure your boards conform to these design rules.</description>
 <param name="mdSmdSmd" value="1mil"/>
 <param name="mdViaViaSameLayer" value="8mil"/>
 <param name="mnLayersViaInSmd" value="2"/>
-<param name="mdCopperDimension" value="15mil"/>
+<param name="mdCopperDimension" value="6mil"/>
 <param name="mdDrill" value="6mil"/>
 <param name="mdSmdStop" value="0mil"/>
 <param name="msWidth" value="6mil"/>
@@ -1038,8 +1039,8 @@ Please make sure your boards conform to these design rules.</description>
 <element name="C12" library="tagps" package="C0603" value="1u" x="9.15" y="38.8" rot="MR0">
 <attribute name="SPICEPREFIX" value="C" x="9.15" y="38.8" size="1.778" layer="28" rot="MR0" display="off"/>
 </element>
-<element name="C15" library="tagps" package="C0603" value="1 n" x="21.7" y="73.4" rot="MR0">
-<attribute name="SPICEPREFIX" value="C" x="21.7" y="73.4" size="1.778" layer="28" rot="MR0" display="off"/>
+<element name="C15" library="tagps" package="C0603" value="1 n" x="19.9" y="73.1" rot="MR180">
+<attribute name="SPICEPREFIX" value="C" x="19.9" y="73.1" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
 <element name="C18" library="tagps" package="C0805" value="4.7uF at least" x="6" y="69" rot="MR90">
 <attribute name="SPICEPREFIX" value="C" x="6" y="69" size="1.778" layer="28" rot="MR90" display="off"/>
@@ -1092,7 +1093,7 @@ Please make sure your boards conform to these design rules.</description>
 <element name="FUSE1" library="tagps" package="R0805" value="500mA" x="3.9" y="20.4" rot="R180">
 <attribute name="SPICEPREFIX" value="R" x="3.9" y="20.4" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="G2" library="tagps" package="TAP5-45" value="BATTERYTAP5-45" x="15.82" y="70.22" rot="MR270"/>
+<element name="G2" library="tagps" package="TAP5-45" value="BATTERYTAP5-45" x="15.38" y="75.38" rot="MR90"/>
 <element name="IC1" library="tagps" package="PN_S-PQFP-G80" value="MSP430FR698X(1)80-PIN_PN" x="12.45" y="47.75" rot="MR180">
 <attribute name="OC_NEWARK" value="" x="12.45" y="47.75" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MPN" value="" x="12.45" y="47.75" size="1.778" layer="28" rot="MR180" display="off"/>
@@ -1117,8 +1118,8 @@ Please make sure your boards conform to these design rules.</description>
 <element name="R10" library="tagps" package="R0603" value="33k" x="38.7" y="14">
 <attribute name="SPICEPREFIX" value="R" x="38.7" y="14" size="1.778" layer="27" display="off"/>
 </element>
-<element name="R11" library="tagps" package="R0603" value="100" x="4" y="62.5" rot="R270">
-<attribute name="SPICEPREFIX" value="R" x="4" y="62.5" size="1.778" layer="27" rot="R270" display="off"/>
+<element name="R11" library="tagps" package="R0603" value="100" x="4.4" y="56.7" rot="MR270">
+<attribute name="SPICEPREFIX" value="R" x="4.4" y="56.7" size="1.778" layer="28" rot="MR270" display="off"/>
 </element>
 <element name="R12" library="tagps" package="R0603" value="470k" x="15.5" y="42" rot="R180">
 <attribute name="SPICEPREFIX" value="R" x="15.5" y="42" size="1.778" layer="27" rot="R180" display="off"/>
@@ -1171,8 +1172,8 @@ Please make sure your boards conform to these design rules.</description>
 <element name="R6" library="tagps" package="R0603" value="160" x="18.45" y="52" rot="R270">
 <attribute name="SPICEPREFIX" value="R" x="18.45" y="52" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="R7" library="tagps" package="R0603" value="100" x="17.6" y="73.5" rot="R90">
-<attribute name="SPICEPREFIX" value="R" x="17.6" y="73.5" size="1.778" layer="27" rot="R90" display="off"/>
+<element name="R7" library="tagps" package="R0603" value="100" x="16.1" y="66.5" rot="R90">
+<attribute name="SPICEPREFIX" value="R" x="16.1" y="66.5" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="R8" library="tagps" package="R0603" value="100" x="38.7" y="12.2">
 <attribute name="SPICEPREFIX" value="R" x="38.7" y="12.2" size="1.778" layer="27" display="off"/>
@@ -1187,11 +1188,11 @@ Please make sure your boards conform to these design rules.</description>
 <attribute name="OC_FARNELL" value="176432" x="21.5" y="33.05" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="S2" library="tagps" package="2P2T" value="2P2T" x="6.08" y="34.35" rot="R180"/>
-<element name="S4" library="tagps" package="B3F-10XX" value="RESET" x="21.81" y="73.42" rot="R90">
-<attribute name="OC_NEWARK" value="36M3542" x="21.81" y="73.42" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MPN" value="B3F-1000" x="21.81" y="73.42" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MF" value="" x="21.81" y="73.42" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="OC_FARNELL" value="176432" x="21.81" y="73.42" size="1.778" layer="27" rot="R90" display="off"/>
+<element name="S4" library="tagps" package="B3F-10XX" value="RESET" x="19.69" y="72.98" rot="R270">
+<attribute name="OC_NEWARK" value="36M3542" x="19.69" y="72.98" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="B3F-1000" x="19.69" y="72.98" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MF" value="" x="19.69" y="72.98" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="OC_FARNELL" value="176432" x="19.69" y="72.98" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="TP-ADC-VREF" library="tagps" package="TP10R" value="TPSQTP10R" x="14.05" y="35.1">
 <attribute name="TP_SIGNAL_NAME" value="" x="14.05" y="35.1" size="1.778" layer="27" display="off"/>
@@ -1239,9 +1240,9 @@ Please make sure your boards conform to these design rules.</description>
 <attribute name="SPICEPREFIX" value="R" x="8.6" y="63.2" size="1.778" layer="28" rot="MR270" display="off"/>
 </element>
 <element name="JP1" library="tagps" package="1X04" value="" x="45.5" y="12.9" rot="R90"/>
-<element name="JP2" library="tagps" package="1X04" value="" x="2" y="70.5" rot="R270"/>
-<element name="R19" library="tagps" package="R0603" value="100" x="3" y="62" rot="MR270">
-<attribute name="SPICEPREFIX" value="R" x="3" y="62" size="1.778" layer="28" rot="MR270" display="off"/>
+<element name="JP2" library="tagps" package="1X04" value="" x="2.2" y="70.5" rot="R270"/>
+<element name="R19" library="tagps" package="R0603" value="100" x="6" y="63.8" rot="MR270">
+<attribute name="SPICEPREFIX" value="R" x="6" y="63.8" size="1.778" layer="28" rot="MR270" display="off"/>
 </element>
 <element name="R20" library="tagps" package="R0603" value="100" x="38.7" y="15.5">
 <attribute name="SPICEPREFIX" value="R" x="38.7" y="15.5" size="1.778" layer="27" display="off"/>
@@ -1267,12 +1268,8 @@ Please make sure your boards conform to these design rules.</description>
 <contactref element="IC1" pad="80"/>
 <contactref element="R11" pad="2"/>
 <wire x1="5.85" y1="52.5" x2="5" y2="52.5" width="0.254" layer="16"/>
-<wire x1="5" y1="52.5" x2="4.5" y2="53" width="0.254" layer="16"/>
-<wire x1="4.5" y1="53" x2="4.5" y2="57.5" width="0.254" layer="16"/>
-<wire x1="4" y1="61.65" x2="2.5" y2="60.15" width="0.254" layer="1"/>
-<wire x1="2.5" y1="60.15" x2="2.5" y2="59.5" width="0.254" layer="1"/>
-<via x="2.5" y="59.5" extent="1-16" drill="0.6"/>
-<wire x1="2.5" y1="59.5" x2="4.5" y2="57.5" width="0.254" layer="16"/>
+<wire x1="5" y1="52.5" x2="4.4" y2="53.1" width="0.254" layer="16"/>
+<wire x1="4.4" y1="53.1" x2="4.4" y2="55.85" width="0.254" layer="16"/>
 </signal>
 <signal name="VCC">
 <contactref element="IC1" pad="22"/>
@@ -1506,9 +1503,9 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="25.05" y1="39.25" x2="23.8" y2="40.5" width="0.6096" layer="1"/>
 <wire x1="23.8" y1="40.5" x2="23.8" y2="41.5" width="0.6096" layer="1"/>
 <wire x1="28.2" y1="37.8" x2="28.2" y2="39.25" width="0.6096" layer="1"/>
-<via x="33" y="56" extent="1-16" drill="0.6"/>
-<via x="22" y="78" extent="1-16" drill="0.6"/>
-<via x="18" y="78" extent="1-16" drill="0.6"/>
+<via x="32.7" y="55.8" extent="1-16" drill="0.6"/>
+<via x="24" y="78" extent="1-16" drill="0.6"/>
+<via x="18.7" y="78" extent="1-16" drill="0.6"/>
 <via x="2" y="78" extent="1-16" drill="0.6"/>
 <via x="40" y="36" extent="1-16" drill="0.6"/>
 <via x="40" y="32" extent="1-16" drill="0.6"/>
@@ -1537,6 +1534,9 @@ Please make sure your boards conform to these design rules.</description>
 <via x="30" y="44" extent="1-16" drill="0.6"/>
 <via x="28" y="46" extent="1-16" drill="0.6"/>
 <via x="26" y="57" extent="1-16" drill="0.6"/>
+<via x="24" y="68" extent="1-16" drill="0.6"/>
+<via x="24" y="72" extent="1-16" drill="0.6"/>
+<via x="24" y="76" extent="1-16" drill="0.6"/>
 </signal>
 <signal name="SBW-TDO/TDI">
 <contactref element="IC1" pad="24"/>
@@ -1545,22 +1545,19 @@ Please make sure your boards conform to these design rules.</description>
 <contactref element="S4" pad="3"/>
 <contactref element="S4" pad="4"/>
 <contactref element="SBW" pad="2"/>
-<wire x1="24.0706" y1="70.1688" x2="24.0706" y2="73.4" width="0.254" layer="16"/>
-<wire x1="24.0706" y1="73.4" x2="24.0706" y2="76.6712" width="0.254" layer="16"/>
-<wire x1="24.0706" y1="70.1688" x2="24.0706" y2="66.4706" width="0.254" layer="16"/>
-<wire x1="24.0706" y1="66.4706" x2="21.5" y2="63.9" width="0.254" layer="16"/>
 <wire x1="16.25" y1="63.05" x2="17.1" y2="63.9" width="0.254" layer="16"/>
-<wire x1="17.1" y1="63.9" x2="19.7" y2="63.9" width="0.254" layer="16"/>
-<wire x1="24.0706" y1="71.8794" x2="24.0706" y2="70.1688" width="0.254" layer="16"/>
-<wire x1="22.55" y1="73.4" x2="24.0706" y2="73.4" width="0.254" layer="16"/>
+<wire x1="17.1" y1="63.9" x2="17.4294" y2="63.9" width="0.254" layer="16"/>
+<wire x1="17.4294" y1="63.9" x2="19.7" y2="63.9" width="0.254" layer="16"/>
 <wire x1="19.05" y1="51" x2="21.6" y2="51" width="0.254" layer="16"/>
 <wire x1="21.6" y1="51" x2="23" y2="52.4" width="0.254" layer="16"/>
-<wire x1="23" y1="52.4" x2="23" y2="59" width="0.254" layer="16"/>
-<wire x1="23" y1="59" x2="23" y2="59.4" width="0.254" layer="16"/>
-<wire x1="21.5" y1="63.9" x2="21" y2="63.9" width="0.254" layer="16"/>
+<wire x1="23" y1="52.4" x2="23" y2="61.9" width="0.254" layer="16"/>
 <wire x1="21" y1="63.9" x2="19.7" y2="63.9" width="0.254" layer="16"/>
 <wire x1="21" y1="63.9" x2="23" y2="61.9" width="0.254" layer="16"/>
-<wire x1="23" y1="61.9" x2="23" y2="59.4" width="0.254" layer="16"/>
+<wire x1="17.4294" y1="69.7288" x2="17.4294" y2="73.2" width="0.254" layer="16"/>
+<wire x1="17.4294" y1="73.2" x2="17.4294" y2="76.2312" width="0.254" layer="16"/>
+<wire x1="19.05" y1="73.1" x2="18.95" y2="73.2" width="0.254" layer="16"/>
+<wire x1="18.95" y1="73.2" x2="17.4294" y2="73.2" width="0.254" layer="16"/>
+<wire x1="17.4294" y1="69.7288" x2="17.4294" y2="63.9" width="0.254" layer="16"/>
 </signal>
 <signal name="N$7">
 <contactref element="R5" pad="1"/>
@@ -1593,8 +1590,8 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="11.35" y1="72.95" x2="11.55" y2="72.95" width="0.3048" layer="16"/>
 <wire x1="11.55" y1="72.95" x2="12.05" y2="72.95" width="0.3048" layer="16"/>
 <wire x1="11.55" y1="71.8" x2="11.55" y2="72.95" width="0.3048" layer="16"/>
-<wire x1="13.8" y1="72.95" x2="15.63" y2="72.95" width="1.016" layer="16"/>
-<wire x1="15.63" y1="72.95" x2="15.82" y2="72.76" width="1.016" layer="16" curve="-90"/>
+<wire x1="15.38" y1="72.84" x2="15.27" y2="72.95" width="1.016" layer="16"/>
+<wire x1="15.27" y1="72.95" x2="13.8" y2="72.95" width="1.016" layer="16"/>
 </signal>
 <signal name="VBUS">
 <contactref element="U$4" pad="1"/>
@@ -1797,9 +1794,8 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="17.2" y1="54.35" x2="17.2" y2="53.75" width="0.254" layer="16"/>
 <wire x1="17.2" y1="54.35" x2="17.2" y2="56.8" width="0.254" layer="16"/>
 <via x="17.2" y="56.8" extent="1-16" drill="0.6"/>
-<wire x1="17.8" y1="72.65" x2="17.6" y2="72.65" width="0.254" layer="1"/>
-<wire x1="17.2" y1="56.8" x2="17.6" y2="57.2" width="0.254" layer="1"/>
-<wire x1="17.6" y1="57.2" x2="17.6" y2="72.65" width="0.254" layer="1"/>
+<wire x1="17.2" y1="56.8" x2="16.1" y2="57.9" width="0.254" layer="1"/>
+<wire x1="16.1" y1="57.9" x2="16.1" y2="65.65" width="0.254" layer="1"/>
 </signal>
 <signal name="SW-CFG-GPS">
 <contactref element="S1" pad="4"/>
@@ -1815,15 +1811,28 @@ Please make sure your boards conform to these design rules.</description>
 <contactref element="IC1" pad="1"/>
 <contactref element="R19" pad="2"/>
 <wire x1="7.7" y1="54.35" x2="7.7" y2="55.8" width="0.254" layer="16"/>
-<wire x1="3" y1="61.15" x2="3" y2="60.5" width="0.254" layer="16"/>
-<wire x1="3" y1="60.5" x2="7.7" y2="55.8" width="0.254" layer="16"/>
+<wire x1="7.7" y1="55.8" x2="7.4" y2="56.1" width="0.254" layer="16"/>
+<wire x1="7.4" y1="56.1" x2="6.9" y2="56.1" width="0.254" layer="16"/>
+<wire x1="6.9" y1="56.1" x2="6.5" y2="56.5" width="0.254" layer="16"/>
+<wire x1="6.5" y1="56.5" x2="6.5" y2="57.9" width="0.254" layer="16"/>
+<wire x1="6.5" y1="57.9" x2="5.8" y2="58.6" width="0.254" layer="16"/>
+<wire x1="5.8" y1="58.6" x2="5.2" y2="58.6" width="0.254" layer="16"/>
+<wire x1="5.2" y1="58.6" x2="4.1" y2="59.7" width="0.254" layer="16"/>
+<wire x1="4.1" y1="59.7" x2="4.1" y2="60.8" width="0.254" layer="16"/>
+<wire x1="4.1" y1="60.8" x2="6" y2="62.7" width="0.254" layer="16"/>
+<wire x1="6" y1="62.7" x2="6" y2="62.95" width="0.254" layer="16"/>
 </signal>
 <signal name="MCU-TX-FT232">
 <contactref element="R11" pad="1"/>
-<contactref element="JP2" pad="2"/>
-<wire x1="2" y1="71.77" x2="2.23" y2="71.77" width="0.254" layer="1"/>
-<wire x1="2.23" y1="71.77" x2="4" y2="70" width="0.254" layer="1"/>
-<wire x1="4" y1="70" x2="4" y2="63.35" width="0.254" layer="1"/>
+<contactref element="JP2" pad="3"/>
+<wire x1="4.4" y1="57.55" x2="3.1" y2="58.85" width="0.254" layer="16"/>
+<wire x1="3.1" y1="58.85" x2="3.1" y2="61.3" width="0.254" layer="16"/>
+<wire x1="3.1" y1="61.3" x2="4.5" y2="62.7" width="0.254" layer="16"/>
+<wire x1="4.5" y1="62.7" x2="4.5" y2="63.2" width="0.254" layer="16"/>
+<via x="4.5" y="63.2" extent="1-16" drill="0.6"/>
+<wire x1="4.5" y1="63.2" x2="4.5" y2="68.6" width="0.254" layer="1"/>
+<wire x1="4.5" y1="68.6" x2="3.87" y2="69.23" width="0.254" layer="1"/>
+<wire x1="3.87" y1="69.23" x2="2.2" y2="69.23" width="0.254" layer="1"/>
 </signal>
 <signal name="SPICLK">
 <contactref element="R32" pad="2"/>
@@ -2148,21 +2157,26 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="8.95" y1="75.6" x2="6.7" y2="75.6" width="0.254" layer="1"/>
 <wire x1="6.7" y1="75.6" x2="6.6" y2="75.5" width="0.254" layer="1" curve="90"/>
 <via x="6.6" y="75.5" extent="1-16" drill="0.6"/>
-<wire x1="17.6" y1="74.35" x2="17.6" y2="76.6" width="0.254" layer="1"/>
-<wire x1="17.6" y1="76.6" x2="8.95" y2="76.6" width="0.254" layer="1"/>
+<wire x1="15.9" y1="76.6" x2="8.95" y2="76.6" width="0.254" layer="1"/>
 <wire x1="8.95" y1="76.6" x2="8.95" y2="75.6" width="0.254" layer="1"/>
-<wire x1="6.6" y1="75.5" x2="2.19" y2="75.5" width="1.27" layer="16"/>
-<wire x1="2.19" y1="75.5" x2="2" y2="75.31" width="1.27" layer="16"/>
-<wire x1="2" y1="75.31" x2="2" y2="74.31" width="1.27" layer="16"/>
+<wire x1="6.6" y1="75.5" x2="2.89" y2="75.5" width="1.27" layer="16"/>
+<wire x1="2.89" y1="75.5" x2="2.2" y2="74.81" width="1.27" layer="16"/>
+<wire x1="2.2" y1="74.81" x2="2.2" y2="74.31" width="1.27" layer="16"/>
+<wire x1="16.1" y1="67.35" x2="16.1" y2="71.2" width="0.254" layer="1"/>
+<wire x1="16.1" y1="71.2" x2="16.8" y2="71.9" width="0.254" layer="1"/>
+<wire x1="16.8" y1="71.9" x2="16.8" y2="73.5" width="0.254" layer="1"/>
+<wire x1="16.8" y1="73.5" x2="15.9" y2="74.4" width="0.254" layer="1"/>
+<wire x1="15.9" y1="74.4" x2="15.9" y2="76.6" width="0.254" layer="1"/>
 </signal>
 <signal name="N$8">
 <contactref element="R19" pad="1"/>
-<contactref element="JP2" pad="3"/>
-<wire x1="2" y1="69.23" x2="2.77" y2="69.23" width="0.254" layer="16"/>
-<wire x1="2.77" y1="69.23" x2="4" y2="68" width="0.254" layer="16"/>
-<wire x1="4" y1="68" x2="4" y2="65" width="0.254" layer="16"/>
-<wire x1="4" y1="65" x2="3" y2="64" width="0.254" layer="16"/>
-<wire x1="3" y1="62.85" x2="3" y2="64" width="0.254" layer="16"/>
+<contactref element="JP2" pad="2"/>
+<wire x1="6" y1="64.65" x2="5.9" y2="64.75" width="0.254" layer="16"/>
+<wire x1="5.9" y1="64.75" x2="5.9" y2="66.4" width="0.254" layer="16"/>
+<via x="5.9" y="66.4" extent="1-16" drill="0.6"/>
+<wire x1="5.9" y1="66.4" x2="5.9" y2="70.3" width="0.254" layer="1"/>
+<wire x1="5.9" y1="70.3" x2="4.43" y2="71.77" width="0.254" layer="1"/>
+<wire x1="4.43" y1="71.77" x2="2.2" y2="71.77" width="0.254" layer="1"/>
 </signal>
 <signal name="FT232-TX">
 <contactref element="R8" pad="2"/>

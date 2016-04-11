@@ -16041,9 +16041,9 @@ package DONE</text>
 <pinref part="R11" gate="G$1" pin="1"/>
 <label x="-38.1" y="45.72" size="1.778" layer="95"/>
 <wire x1="-25.4" y1="40.64" x2="-40.64" y2="40.64" width="0.1524" layer="91"/>
-<wire x1="-40.64" y1="40.64" x2="-40.64" y2="76.2" width="0.1524" layer="91"/>
-<pinref part="JP2" gate="A" pin="2"/>
-<wire x1="-40.64" y1="76.2" x2="-78.74" y2="76.2" width="0.1524" layer="91"/>
+<wire x1="-40.64" y1="40.64" x2="-40.64" y2="73.66" width="0.1524" layer="91"/>
+<pinref part="JP2" gate="A" pin="3"/>
+<wire x1="-78.74" y1="73.66" x2="-40.64" y2="73.66" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="SPICLK" class="0">
@@ -16384,9 +16384,9 @@ package DONE</text>
 <segment>
 <pinref part="R19" gate="G$1" pin="1"/>
 <wire x1="-58.42" y1="40.64" x2="-43.18" y2="40.64" width="0.1524" layer="91"/>
-<wire x1="-43.18" y1="40.64" x2="-43.18" y2="73.66" width="0.1524" layer="91"/>
-<pinref part="JP2" gate="A" pin="3"/>
-<wire x1="-43.18" y1="73.66" x2="-78.74" y2="73.66" width="0.1524" layer="91"/>
+<wire x1="-43.18" y1="40.64" x2="-43.18" y2="76.2" width="0.1524" layer="91"/>
+<pinref part="JP2" gate="A" pin="2"/>
+<wire x1="-43.18" y1="76.2" x2="-78.74" y2="76.2" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="FT232-TX" class="0">
