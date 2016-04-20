@@ -15095,10 +15095,10 @@ Source: www.kingbright.com</description>
 </variantdefs>
 <classes>
 <class number="0" name="signal" width="0.254" drill="0.254">
-<clearance class="0" value="0.15"/>
+<clearance class="0" value="0.0254"/>
 </class>
-<class number="1" name="charimp50" width="0.254" drill="0.254">
-<clearance class="1" value="0.15"/>
+<class number="1" name="charimp50" width="0.6096" drill="0.254">
+<clearance class="1" value="0.5588"/>
 </class>
 <class number="2" name="conect" width="0.254" drill="0.254">
 </class>
@@ -16630,10 +16630,8 @@ package DONE</text>
 <approved hash="104,1,266.7,198.12,U$2,PWRO1,N$26,,,"/>
 <approved hash="104,1,-15.24,203.2,U$4,IN,VBUS,,,"/>
 <approved hash="104,1,10.16,203.2,U$4,OUT,VCCUSB,,,"/>
-<approved hash="202,1,495.3,-77.47,U$6,SCL,,,,"/>
 <approved hash="113,1,-333.185,140.187,X1,,,,,"/>
 <approved hash="113,1,-429.26,40.2505,S1,,,,,"/>
-<approved hash="113,1,-429.26,27.5505,S3,,,,,"/>
 <approved hash="113,1,-314.96,105.135,L1,,,,,"/>
 <approved hash="113,1,-416.238,87.63,LED1,,,,,"/>
 <approved hash="113,1,-220.658,194.31,LED2,,,,,"/>

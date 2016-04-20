@@ -15095,10 +15095,10 @@ Source: www.kingbright.com</description>
 </variantdefs>
 <classes>
 <class number="0" name="signal" width="0.254" drill="0.254">
-<clearance class="0" value="0.15"/>
+<clearance class="0" value="0.0254"/>
 </class>
-<class number="1" name="charimp50" width="0.254" drill="0.254">
-<clearance class="1" value="0.15"/>
+<class number="1" name="charimp50" width="0.6096" drill="0.254">
+<clearance class="1" value="0.5588"/>
 </class>
 <class number="2" name="conect" width="0.254" drill="0.254">
 </class>
