@@ -15190,7 +15190,7 @@ Source: www.kingbright.com</description>
 <part name="C22" library="tagps" deviceset="CPOL-EU" device="A/3216-18W" value="1uF"/>
 <part name="C27" library="tagps" deviceset="CPOL-EU" device="A/3216-18W" value="1uF"/>
 <part name="C28" library="tagps" deviceset="CPOL-EU" device="A/3216-18W" value="4.7uF"/>
-<part name="TP-VCC" library="tagps" deviceset="TPSQ" device="PAD1-13" value="TPSQPAD1-13"/>
+<part name="TP-VCC" library="tagps" deviceset="TPSQ" device="TP10R" value="TPSQTP10R"/>
 <part name="TP-USBRX" library="tagps" deviceset="TPSQ" device="PAD1-13" value="TPSQPAD1-13"/>
 <part name="TP-USBTX" library="tagps" deviceset="TPSQ" device="PAD1-13" value="TPSQPAD1-13"/>
 <part name="S1" library="tagps" deviceset="SWITCH-10-XX" device=""/>
