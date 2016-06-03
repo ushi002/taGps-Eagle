@@ -4819,7 +4819,7 @@ diameter 4.5 mm, grid 5.08 mm</description>
 <wire x1="-1.9144" y1="1.2492" x2="1.9144" y2="1.2492" width="0.1524" layer="21" curve="-113.748837"/>
 <wire x1="-1.9144" y1="1.2492" x2="-1.9144" y2="-1.2492" width="0.1524" layer="51" curve="66.251163"/>
 <wire x1="1.9144" y1="-1.2492" x2="1.9144" y2="1.2492" width="0.1524" layer="51" curve="66.251163"/>
-<pad name="-" x="2.54" y="0" drill="0.8128" shape="octagon"/>
+<pad name="-" x="3.81" y="0" drill="0.8128" shape="octagon"/>
 <pad name="+" x="-2.54" y="0" drill="0.8128"/>
 <text x="2.286" y="1.016" size="1.27" layer="25" ratio="10">&gt;NAME</text>
 <text x="2.286" y="-2.286" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
